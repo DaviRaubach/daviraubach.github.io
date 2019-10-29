@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/whiteglass/sitemap.xml
+Sitemap: https://yous.github.io/whiteglass/sitemap.xml
