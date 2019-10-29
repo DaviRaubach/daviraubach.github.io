@@ -1,7 +1,6 @@
 ---
-layout: default
-title: About
+layout: page
+title: About this website
 ---
-# About page
 
-This page tells you a little bit about me.
+I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
