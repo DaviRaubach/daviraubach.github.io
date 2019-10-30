@@ -2,7 +2,7 @@ site-title { text-align: center; font-size: 3em; font-family: Garamond; }
 
 body { margin: 60px auto; width: 70%; background: white; }
 
-nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: true; text-align: left; }
+nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; text-align: left; }
 
 .current { font-style: bold; }
 
