@@ -1,4 +1,4 @@
-site-title { text-align: center; font-size: 3em; font-family: Garamond; }
+site-title { font-size: 3em; font-family: Garamond; }
 
 body { margin: 60px auto; width: 70%; background: white; }
 
@@ -10,14 +10,20 @@ a { text-decoration: none; color: #999; margin-right: 10px; }
 
 a:hover { text-decoration: underline; }
 
-h1 { font-size: 3em; font-family: Garamond; }
+h1 { text-align: center; font-size: 2em; font-family: Garamond; }
+
+summary { font-size: 1.3em; line-height: 1.4em; color: #333; }
 
 p { font-size: 1.5em; line-height: 1.4em; color: #333; }
+
+p2 { font-size: 0.8em; line-height: 1.4em; color: #999; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 
 ul.posts li { list-style: none; }
+
+audio { width: 240px; }
 
 /*# sourceMappingURL=style.css.map */

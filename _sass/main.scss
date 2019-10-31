@@ -1,8 +1,9 @@
 site-title {
-	text-align: center;
+	
 	font-size: 3em;
 	font-family: Garamond;
 }
+
 
 body {
     margin: 60px auto;
@@ -24,6 +25,7 @@ nav {
 
 }
 
+
 a {
     text-decoration: none;
     color: #999;
@@ -34,14 +36,29 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+	text-align: center;
+    font-size: 2em;
     font-family: Garamond;
 }
+
+summary {
+	font-size: 1.3em;
+    line-height: 1.4em;
+    color: #333;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+
+p2 {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    color: #999;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -54,4 +71,10 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+audio
+{
+width: 240px;
+
 }
