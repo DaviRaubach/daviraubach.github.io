@@ -1,4 +1,4 @@
-<p>
+
 	{% for item in site.data.music %}
     
 	
@@ -8,9 +8,18 @@
 	<summary>{{item.name}}  &nbsp; <p2>{{item.instrumentation}}</p2></summary>
 	{{item.date}}
 	</br>
-	{{item.description}}
+    {{item.description}}
+    </br>
+    </br>
+	<center><p3>
+    {% for item in item.poem %}
+	
+	{{item}}
+    
 	</br>
-    <a href="{{ item.link }}" >[score]</a> 
+	{% endfor %}
+	</p3></center>
+    {{item.link}}
     </br>
     {{item.audio}}
     
@@ -19,5 +28,7 @@
     {{item.video}}
     
     </details>
+    </br>
+    </br>
   {% endfor %}
-</p>
+
