@@ -1,24 +1,28 @@
 
 	{% for item in site.data.music %}
-    
-	
 
 
 <details> 
 	<summary>{{item.name}}  &nbsp; <p2>{{item.instrumentation}}</p2></summary>
+	
+	<p>
 	{{item.date}}
 	</br>
     {{item.description}}
     </br>
     </br>
-	<center><p3>
+	</p>
+	
+	<center>
+		<p3>
     {% for item in item.poem %}
 	
 	{{item}}
     
 	</br>
 	{% endfor %}
-	</p3></center>
+	</p3>
+	</center>
     
     {% if item.link != none %}
     <details>
