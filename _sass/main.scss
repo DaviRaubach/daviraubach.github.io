@@ -42,9 +42,6 @@ h1 {
 
 }
 
-details > summary::-webkit-details-marker {
-  display: none;
-}
 
 summary {
 	font-size: 1.2em;
@@ -53,7 +50,7 @@ summary {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
