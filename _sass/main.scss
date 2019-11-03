@@ -52,13 +52,13 @@ img {
 div.test{
 	border-radius: 3px;
 
-	width: 70%;
-	height: 100%;
+	width: auto;
+	height: auto;
 	display: block;
 	text-align: center;
 	
-	padding: 200px;
-	opacity: 1;
+	padding: 100px;
+	opacity: 0.3;
 
 }
 
@@ -250,6 +250,7 @@ div.test{
 	height: 100%;
 	display: inline-block;
 	text-align: center;
+	padding: 4px;
 
 	opacity: 0;
 

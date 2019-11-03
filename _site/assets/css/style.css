@@ -8,7 +8,7 @@
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19); }
     to { opacity: 1;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
-  div.test { border-radius: 3px; width: 70%; height: 100%; display: block; text-align: center; padding: 200px; opacity: 1; }
+  div.test { border-radius: 3px; width: auto; height: auto; display: block; text-align: center; padding: 100px; opacity: 0.3; }
   div.test:hover { opacity: 1; animation-name: example; animation-duration: 1.5s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { font-style: bold; }
   #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
@@ -38,7 +38,7 @@
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19); }
     to { opacity: 1;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
-  div.test { border-radius: 3px; width: 19%; height: 100%; display: inline-block; text-align: center; opacity: 0; }
+  div.test { border-radius: 3px; width: 19%; height: 100%; display: inline-block; text-align: center; padding: 4px; opacity: 0; }
   div.test:hover { opacity: 1; animation-name: example; animation-duration: 1.5s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { font-style: bold; }
   #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
