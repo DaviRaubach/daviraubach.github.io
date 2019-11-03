@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="112.01mm" height="174.01mm" viewBox="3200 1800 11201 17401" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+<svg version="1.2" width="112.01mm" height="170.01mm" viewBox="3200 1800 11201 17001" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs>
   <font id="EmbeddedFont_1" horiz-adv-x="2048">
    <font-face font-family="OCR A Std embedded" units-per-em="2048" font-weight="bold" font-style="italic" ascent="1588" descent="456"/>
@@ -117,8 +117,8 @@
  <g class="Page">
   <g class="com.sun.star.drawing.CustomShape">
    <g id="id3">
-    <rect class="BoundingBox" stroke="none" fill="none" x="3200" y="1800" width="11201" height="17401"/>
-    <path fill="rgb(255,255,255)" stroke="none" d="M 8800,19200 L 3200,19200 3200,1800 14400,1800 14400,19200 8800,19200 Z"/>
+    <rect class="BoundingBox" stroke="none" fill="none" x="3200" y="1800" width="11201" height="17001"/>
+    <path fill="rgb(255,255,255)" stroke="none" d="M 8800,18800 L 3200,18800 3200,1800 14400,1800 14400,18800 8800,18800 Z"/>
    </g>
   </g>
   <g class="com.sun.star.drawing.TextShape">
