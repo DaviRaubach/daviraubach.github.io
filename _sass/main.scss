@@ -1,7 +1,10 @@
+
+
 site-title {
 	
 	font-size: 2em;
 	font-family: 'Times';
+	text-align: left;
 }
 
 
@@ -10,6 +13,14 @@ body {
     width: 70%;
     background: white;
 }
+
+body.index {
+    margin: 60px auto;
+    width: 90%;
+    background: white;
+}
+
+
 nav {
 	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     
@@ -18,11 +29,56 @@ nav {
 
 }
 
+img.img1 {
+	display: inline-block;
+	border-radius: 8px;
+	
+	margin-bottom: 40px;
+
+
+}
+
+img:hover {
+	display: none;
+}
+
+
+
+
+
+
 .current {
     
     font-style: bold;
+}
+
+div.relative {
+	
+	position: relative;
+	width: 30%
+
+}
+
+div.relative2 {
+	
+	position: relative;
+	top: 0px;
+	left: 33%;
+	width: 30%
 
 
+}
+
+#parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5{
+  width: 20%;
+  height: 40px;
+  
+  float: left;
+  text-align: center;
+}
+.child_div_1 {
+  float: left;
+  margin-right: 5px;
 }
 
 
@@ -32,6 +88,25 @@ a {
     margin-right: 10px;
  
 }
+
+a.nav2 {
+
+    text-decoration: none;
+    color: #EEE;
+    font-family: 'Garamond';
+    font-size: 24px;
+
+
+}
+
+a.nav2:hover {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Garamond';
+    font-size: 24px;
+
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -93,3 +168,11 @@ audio
 width: 240px;
 
 }
+
+.divisao {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    border: 15px solid orange
+}
+
+

@@ -3,21 +3,56 @@
   <head>
   
     <meta charset="utf-8">
-    <site-title>Davi Raubach</site-title>
+
+    
 
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/css/style.css">
-   
+
+
+    
+
   </head>
-  <body>
-    
-     {% include navigation.html %}
-    
-    <section>
+  <body class="index">
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+<div id='parent_div_1'  {% if page.url == "/" %}style="color: red;"{% endif %} ><a class="nav2" hrfe="/composer.html">Composition and Research</a></div>
+
+
+<div id='parent_div_2'><a class="nav2" hrfe="/concionista.html">Não esqueça de chover</a></div>
+
+<div id='parent_div_3'><a class="nav2" hrfe="/accordion.html">Accordion</a> </div>
+
+<div id='parent_div_4'><a class="nav2" hrfe="/poesia.html">Poesia?</a> </div>
+
+<div id='parent_div_5'><a class="nav2" hrfe="/aulas.html">Aulas</a> </div>
+
+<img class="img1" src="/assets/images/img1.svg"  width="19.7%" height="80%">
+
+<img class="img1" src="/assets/images/img2.jpg"  width="19.7%" height="80%">
+
+<img class="img1" src="/assets/images/img3.jpg"  width="19.7%" height="80%">
+
+<img class="img1" src="/assets/images/img4.svg"  width="19.7%" height="80%">
+
+<img class="img1" src="/assets/images/img5.jpg"  width="19.7%" height="80%">
+
+</div>
+</br>
+
+      
       {{ content }}
-    </section>
-    <footer>
     
+
+    <footer>
+
+    <site-title>Davi Raubach</site-title>
+
     </footer>
    
   </body>

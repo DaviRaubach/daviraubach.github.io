@@ -3,7 +3,6 @@
   <head>
   
     <meta charset="utf-8">
-    <site-title>Davi Raubach</site-title>
 
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,7 +10,6 @@
   </head>
   <body>
     
-     {% include navigation.html %}
 
     <section>
         {{ content }}
@@ -22,7 +20,8 @@
       
     </section>
     <footer>
-    
+    <site-title>Davi Raubach</site-title>
+     {% include navigation.html %}
     </footer>
    
   </body>
