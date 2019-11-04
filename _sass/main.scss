@@ -14,7 +14,7 @@ site-title {
 
 
 body {
-    margin-top: 30px;
+
     margin-left: 60px auto;
     margin-right: 60px auto;
     width: 100%;
@@ -243,6 +243,12 @@ img {
   to {opacity: 1;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 }
+@keyframes example2 {
+  from {opacity: 1;
+    }
+  to {opacity: 0;
+    }
+}
 
 
 div.test{
@@ -255,6 +261,8 @@ div.test{
 	padding: 4px;
     margin-top: 130px;
 	opacity: 0;
+    animation-name: example2;
+    animation-duration: 2s;
 
 }
 
@@ -262,7 +270,7 @@ div.test:hover {
 	opacity: 1;
 
 	animation-name: example;
-  	animation-duration: 1.5s;
+  	animation-duration: 1s;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -360,6 +368,10 @@ p4 {
 }
 
 footer {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    left: 100px;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: left;
