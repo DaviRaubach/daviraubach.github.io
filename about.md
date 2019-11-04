@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: composer
 title: About
 ---
 # About page
