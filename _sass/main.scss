@@ -2,7 +2,7 @@
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 1079px)   {
+@media only screen and (max-width: 960px)   {
   
 
 site-title {
@@ -14,15 +14,19 @@ site-title {
 
 
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin-top: 30px;
+    margin-left: 60px auto;
+    margin-right: 60px auto;
+    width: 100%;
     background: white;
 }
 
 body.index {
-    margin: 60px auto;
-    width: 90%;
+
+    margin: auto;
+    width: 500px;
     background: white;
+
 }
 
 
@@ -41,31 +45,30 @@ img {
 
 }
 
-@keyframes example {
-  from {opacity: 0.3;
-  	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);}
-  to {opacity: 1;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-}
+
 
 
 div.test{
+    margin: auto;
 	border-radius: 3px;
 
 	width: auto;
-	height: auto;
+	
 	display: block;
 	text-align: center;
 	
 	padding: 100px;
-	opacity: 0.3;
+	opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
 }
 
 div.test:hover {
+    margin: auto;
 	opacity: 1;
 	animation-name: example;
-  	animation-duration: 1.5s;
+  	animation-duration: 0.5s;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -111,15 +114,14 @@ a.nav2 {
     color: #999;
     font-family: 'Garamond';
     font-size: 2em;
-    padding-bottom: -40px;
+    padding-bottom: -20px;
 
 }
 
 a.nav2:hover {
-    text-decoration: none;
+
     color: #000;
-    font-family: 'Garamond';
-    font-size: 24px;
+    
 
 }
 
@@ -196,7 +198,7 @@ width: 240px;
 }
 
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 961px) {
   
 
 site-title {
@@ -246,18 +248,19 @@ img {
 div.test{
 	border-radius: 3px;
 
-	width: 19%;
+	width: 18.7%;
 	height: 100%;
 	display: inline-block;
 	text-align: center;
 	padding: 4px;
-
+    margin-top: 130px;
 	opacity: 0;
 
 }
 
 div.test:hover {
 	opacity: 1;
+
 	animation-name: example;
   	animation-duration: 1.5s;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
