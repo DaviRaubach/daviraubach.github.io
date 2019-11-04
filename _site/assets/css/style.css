@@ -2,9 +2,11 @@
 @media only screen and (max-width: 1079px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin-left: 60px auto; margin-right: 60px auto; width: 100%; background: white; }
   body.index { margin: auto; width: 100%; background: white; }
-  nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; text-align: left; }
+  nav { font-family: serif; font-size: 1.5em; list-style: none; text-align: left; }
   img { border-radius: 3px; }
-  div.test { margin: auto; border-radius: 3px; width: auto; display: block; text-align: center; padding: 100px; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  @keyframes exampletwo { from { opacity: 0; }
+    to { opacity: 1; } }
+  div.test { margin: auto; border-radius: 3px; width: auto; display: block; text-align: center; padding: 100px; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); animation-name: exampletwo; animation-duration: 25s; }
   div.test:hover { margin: auto; opacity: 1; animation-name: example; animation-duration: 0.5s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { font-style: bold; }
   #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
@@ -34,11 +36,9 @@
       box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19); }
     to { opacity: 1;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
-  @keyframes exampletwo { from { opacity: 1;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-    to { opacity: 0.1;
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19); } }
-  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; opacity: 0.1; animation-name: exampletwo; animation-duration: 2s; }
+  @keyframes exampletwo { from { opacity: 0; }
+    to { opacity: 0.3; } }
+  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; opacity: 0.3; animation-name: exampletwo; animation-duration: 25s; }
   div.test:hover { opacity: 1; animation-name: example; animation-duration: 1s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { font-style: bold; }
   #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
