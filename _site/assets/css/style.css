@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (max-width: 960px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
+@media only screen and (max-width: 1079px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin-left: 60px auto; margin-right: 60px auto; width: 100%; background: white; }
   body.index { margin: auto; width: 100%; background: white; }
   nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; text-align: left; }
@@ -25,7 +25,7 @@
   audio { width: 240px; }
   .divisao { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 15px solid orange; } }
 
-@media only screen and (min-width: 961px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
+@media only screen and (min-width: 1080px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin: 60px auto; width: 70%; background: white; }
   .index { margin: 60px auto; width: 90%; background: white; }
   nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; text-align: left; }
