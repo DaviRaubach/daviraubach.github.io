@@ -15,15 +15,15 @@ site-title {
 
 body {
 
-    margin-left: 60px auto;
-    margin-right: 60px auto;
-    width: 100%;
+    width: 95%;
     background: white;
+    padding: 1%;
+
 }
 
 body.index {
 
-    margin: auto;
+    
     width: 100%;
     background: white;
 
@@ -56,35 +56,36 @@ img {
 }
 
 div.test{
-    margin: auto;
 	border-radius: 3px;
+    margin:auto;
+	width: 40%;
 
-	width: auto;
 	
-	display: block;
+	display: inline-table;
 	text-align: center;
 	
-	padding: 100px;
+	padding: 4%;
 	opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: exampletwo;
-    animation-duration: 25s;
+    animation-duration: 8s;
 
 }
 
 div.test:hover {
-    margin: auto;
 	opacity: 1;
-	animation-name: example;
-  	animation-duration: 0.5s;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 
+
 .current {
+
     
-    font-style: bold;
+    text-decoration: overline;
+    color: black;
+
 }
 
 
@@ -121,8 +122,9 @@ a.nav2 {
     text-decoration: none;
     color: #999;
     font-family: serif;
-    font-size: 1em;
+    font-size: 1.3em;
     padding-bottom: -20px;
+
 
 }
 
