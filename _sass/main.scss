@@ -120,8 +120,8 @@ a.nav2 {
 
     text-decoration: none;
     color: #999;
-    font-family: 'Garamond';
-    font-size: 2em;
+    font-family: serif;
+    font-size: 1em;
     padding-bottom: -20px;
 
 }
@@ -287,8 +287,11 @@ div.test:hover {
 
 
 .current {
+
     
-    font-style: bold;
+    text-decoration: overline;
+    color: black;
+
 }
 
 
@@ -345,6 +348,10 @@ h1 {
 
 }
 
+details {
+    background-color: #EEE;
+    padding: 12px;
+}
 
 summary {
 	font-size: 1.2em;
@@ -378,10 +385,7 @@ p4 {
 }
 
 footer {
-    position: absolute;
-    right: 0;
-    bottom: 100px;
-    left: 100px;
+    
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: left;

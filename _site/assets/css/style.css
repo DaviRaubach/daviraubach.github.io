@@ -12,7 +12,7 @@
   #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
   .parent_div_3:hover { opacity: 0.3; }
   a { text-decoration: none; color: #999; margin-right: 10px; }
-  a.nav2 { text-decoration: none; color: #999; font-family: 'Garamond'; font-size: 2em; padding-bottom: -20px; }
+  a.nav2 { text-decoration: none; color: #999; font-family: serif; font-size: 1em; padding-bottom: -20px; }
   a.nav2:hover { color: #000; }
   a:hover { text-decoration: underline; }
   h1 { text-align: right; font-size: 1.9em; font-family: 'Times'; }
@@ -40,7 +40,7 @@
     to { opacity: 0.3; } }
   div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; opacity: 0.3; animation-name: exampletwo; animation-duration: 25s; }
   div.test:hover { opacity: 1; animation-name: example; animation-duration: 1s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  .current { font-style: bold; }
+  .current { text-decoration: overline; color: black; }
   #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
   .parent_div_3:hover { opacity: 0.3; }
   a { text-decoration: none; color: #999; margin-right: 10px; }
@@ -48,12 +48,13 @@
   a.nav2:hover { text-decoration: none; color: #000; }
   a:hover { text-decoration: underline; }
   h1 { text-align: right; font-size: 1.9em; font-family: serif, 'Times'; }
+  details { background-color: #EEE; padding: 12px; }
   summary { font-size: 1.2em; line-height: 1.4em; color: #333; }
   p { font-size: 1em; line-height: 1.4em; color: #333; }
   p2 { font-size: 0.8em; line-height: 1.4em; color: #999; }
   p3 { font-size: 1.1em; line-height: 1.4em; color: black; font-style: italic; }
   p4 { font-size: 0.9em; color: black; }
-  footer { position: absolute; right: 0; bottom: 100px; left: 100px; border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
+  footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
   ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
   ul.posts li { list-style: none; }
   audio { width: 240px; }
