@@ -10,6 +10,7 @@ site-title {
 	font-size: 2em;
 	font-family: serif, 'Times';
 	text-align: left;
+
 }
 
 
@@ -30,12 +31,14 @@ body.index {
 }
 
 
+
+
 nav {
 	font-family: serif;
     font-size: 1.5em;
     list-style: none;
     text-align: left;
-
+    
 
 }
 
@@ -82,9 +85,9 @@ div.test:hover {
 
 .current {
 
-    
-    text-decoration: overline;
+    background-color: #EEE;
     color: black;
+    text-shadow: 2px 2px #ff0000;
 
 }
 
@@ -216,6 +219,7 @@ site-title {
 	font-size: 2em;
 	font-family: serif, 'Times';
 	text-align: left;
+
 }
 
 
@@ -231,13 +235,36 @@ body {
     background: white;
 }
 
+div.about {
+
+    margin:auto;
+    width: 560px;
+
+}
+
+div.comp {
+
+    margin:auto;
+    width: 580px;
+
+}
+
+
+
 
 nav {
 	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     
     list-style: none;
     text-align: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 1px solid #d5d5d5;
 
+}
+
+nav:hover {
+    border-top: 1px solid black;
 }
 
 
@@ -290,8 +317,7 @@ div.test:hover {
 
 .current {
 
-    
-    text-decoration: overline;
+    background-color: #EEE;
     color: black;
 
 }
@@ -342,7 +368,10 @@ a.nav2:hover {
 
 a:hover {
     text-decoration: underline;
+
 }
+
+
 h1 {
 	text-align: right;
     font-size: 1.9em;
@@ -406,6 +435,7 @@ ul.posts li {
 audio
 {
 width: 240px;
+display: block;
 
 }
 

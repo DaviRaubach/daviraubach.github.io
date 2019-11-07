@@ -1,6 +1,6 @@
 ---
 layout: musiclist
-title: Music
+title: Compositions
 ---
 <h1>{{ page.title }}</h1>
 
