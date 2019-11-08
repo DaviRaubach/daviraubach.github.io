@@ -8,9 +8,7 @@
     to { opacity: 1; } }
   div.test { border-radius: 3px; margin: auto; width: 40%; display: inline-table; text-align: center; padding: 4%; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); animation-name: exampletwo; animation-duration: 8s; }
   div.test:hover { opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  .current { background-color: #EEE; color: black; text-shadow: 2px 2px #ff0000; }
-  #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
-  .parent_div_3:hover { opacity: 0.3; }
+  .current { background-color: #EEE; color: black; }
   a { text-decoration: none; color: #999; margin-right: 10px; }
   a.nav2 { text-decoration: none; color: #999; font-family: serif; font-size: 1.3em; padding-bottom: -20px; }
   a.nav2:hover { color: #000; }
@@ -22,16 +20,14 @@
   p3 { font-size: 1.1em; line-height: 1.4em; color: black; font-style: italic; }
   p4 { font-size: 0.9em; color: black; }
   footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
-  ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-  ul.posts li { list-style: none; }
-  audio { width: 240px; }
-  .divisao { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 15px solid orange; } }
+  audio { width: 240px; } }
 
+/*____________________________________________________________________________________________*/
 @media only screen and (min-width: 1080px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin: 60px auto; width: 70%; background: white; }
-  .index { margin: 60px auto; width: 90%; background: white; }
+  .index { margin: 60px auto; width: 90%; background: white; justify-content: center; }
   div.about { margin: auto; width: 560px; }
-  div.comp { margin: auto; width: 580px; }
+  div.comp { margin: auto; width: 580px; text-align: left; }
   nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; text-align: left; padding-top: 1%; padding-bottom: 1%; border-top: 1px solid #d5d5d5; }
   nav:hover { border-top: 1px solid black; }
   img { border-radius: 3px; }
@@ -40,12 +36,10 @@
     to { opacity: 1;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
   @keyframes exampletwo { from { opacity: 0; }
-    to { opacity: 0.3; } }
-  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; opacity: 0.3; animation-name: exampletwo; animation-duration: 25s; }
-  div.test:hover { opacity: 1; animation-name: example; animation-duration: 1s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    to { opacity: 1; } }
+  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; animation-name: exampletwo; animation-duration: 5s; }
+  div.test:hover { opacity: 1; animation-name: example; animation-duration: 0.3s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { background-color: #EEE; color: black; }
-  #parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5 { width: 20%; height: 80%; float: left; text-align: center; }
-  .parent_div_3:hover { opacity: 0.3; }
   a { text-decoration: none; color: #999; margin-right: 10px; }
   a.nav2 { text-decoration: none; color: #999; font-family: serif, 'Garamond'; font-size: 24px; padding-bottom: -40px; }
   a.nav2:hover { text-decoration: none; color: #000; }
@@ -58,9 +52,6 @@
   p3 { font-size: 1.1em; line-height: 1.4em; color: black; font-style: italic; }
   p4 { font-size: 0.9em; color: black; }
   footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
-  ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-  ul.posts li { list-style: none; }
-  audio { width: 240px; display: block; }
-  .divisao { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: 15px solid orange; } }
+  audio { width: 240px; display: block; } }
 
 /*# sourceMappingURL=style.css.map */

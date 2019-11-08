@@ -1,0 +1,13 @@
+- name: home
+  link: /
+- name: sobre
+  link: /about-pt.html
+- name: composições
+  link: /music-pt.html
+- name: textos
+  link: /writings-pt.html
+- name: accordeão
+  link: /accordion-pt.html
+- name: não esqueça de chover
+  link: /naoesquecadechover.html
+  

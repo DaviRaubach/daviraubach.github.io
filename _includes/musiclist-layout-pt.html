@@ -1,0 +1,47 @@
+
+	{% for item in site.data.music %}
+
+
+<details> 
+	<summary>{{item.name}}  &nbsp; <p2>{{item.instrumentation}}</p2></summary>
+	
+	<p>
+	{{item.date}}
+	</br>
+    {{item.description}}
+    </br>
+    </br>
+	</p>
+	
+	<center>
+		<p3>
+    {% for item in item.poem %}
+	
+	{{item}}
+    
+	</br>
+	{% endfor %}
+	</p3>
+	</center>
+    
+    {% if item.link != none %}
+    <details>
+    	<summary><p4>partitura</p4></summary>
+    	<iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url={{item.link}}" style="width:100%; height:500px" frameborder="0" ><p>Oops! You don't support PDFs!</p></iframe> 
+	</details>
+
+	{% endif %}
+    </br>
+    {{item.audio}}
+    
+    </br>
+    
+    {{item.video}}
+    
+
+    </details>
+
+    </br>
+    </br>
+  {% endfor %}
+

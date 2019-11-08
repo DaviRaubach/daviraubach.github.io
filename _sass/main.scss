@@ -87,29 +87,8 @@ div.test:hover {
 
     background-color: #EEE;
     color: black;
-    text-shadow: 2px 2px #ff0000;
 
 }
-
-
-
-
-#parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5{
-  width: 20%;
-  height: 80%;
-  
-  float: left;
-  text-align: center;
-  
-
-}
-
-.parent_div_3:hover {
-	opacity: 0.3;
-
-}
-
-
 
 
 
@@ -141,6 +120,8 @@ a.nav2:hover {
 a:hover {
     text-decoration: underline;
 }
+
+
 h1 {
 	text-align: right;
     font-size: 1.9em;
@@ -187,29 +168,15 @@ footer {
 
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 audio
 {
 width: 240px;
 
 }
 
-.divisao {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    border: 15px solid orange
-}
 
 }
-
+/*____________________________________________________________________________________________*/
 
 @media only screen and (min-width: 1080px) {
   
@@ -233,6 +200,8 @@ body {
     margin: 60px auto;
     width: 90%;
     background: white;
+    justify-content: center;
+
 }
 
 div.about {
@@ -246,9 +215,9 @@ div.comp {
 
     margin:auto;
     width: 580px;
+    text-align: left;
 
 }
-
 
 
 
@@ -285,7 +254,7 @@ img {
     opacity: 0;
     }
   to {
-    opacity: 0.3;
+    opacity: 1;
     }
 }
 
@@ -299,9 +268,8 @@ div.test{
 	text-align: center;
 	padding: 4px;
     margin-top: 130px;
-	opacity: 0.3;
     animation-name: exampletwo;
-    animation-duration: 25s;
+    animation-duration: 5s;
 
 }
 
@@ -309,7 +277,7 @@ div.test:hover {
 	opacity: 1;
 
 	animation-name: example;
-  	animation-duration: 1s;
+  	animation-duration: 0.3s;
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -321,26 +289,6 @@ div.test:hover {
     color: black;
 
 }
-
-
-
-
-#parent_div_1, #parent_div_2, #parent_div_3, #parent_div_4, #parent_div_5{
-  width: 20%;
-  height: 80%;
-  
-  float: left;
-  text-align: center;
-  
-
-}
-
-.parent_div_3:hover {
-	opacity: 0.3;
-
-}
-
-
 
 
 
@@ -423,14 +371,6 @@ footer {
 
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
 
 audio
 {
@@ -439,10 +379,6 @@ display: block;
 
 }
 
-.divisao {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    border: 15px solid orange
-}
+
 
 }
