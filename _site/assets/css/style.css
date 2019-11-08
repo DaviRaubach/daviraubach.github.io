@@ -25,16 +25,15 @@
 /*____________________________________________________________________________________________*/
 @media only screen and (min-width: 1080px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin: 60px auto; width: 70%; background: white; }
-  .index { margin: 60px auto; width: 90%; background: white; justify-content: center; }
+  .index { margin: 60px auto; width: 90%; background: white; }
+  div.index { display: flex; justify-content: center; }
   div.about { margin: auto; width: 560px; }
   div.comp { margin: auto; width: 580px; text-align: left; }
   nav { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; text-align: left; padding-top: 1%; padding-bottom: 1%; border-top: 1px solid #d5d5d5; }
   nav:hover { border-top: 1px solid black; }
   img { border-radius: 3px; }
-  @keyframes example { from { opacity: 0.3;
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19); }
-    to { opacity: 1;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
+  @keyframes example { from { box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19); }
+    to { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
   @keyframes exampletwo { from { opacity: 0; }
     to { opacity: 1; } }
   div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; animation-name: exampletwo; animation-duration: 5s; }
