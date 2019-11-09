@@ -23,7 +23,7 @@
   audio { width: 240px; } }
 
 /*____________________________________________________________________________________________*/
-@media only screen and (min-width: 1080px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
+@media only screen and (min-width: 401px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin: 60px auto; width: 70%; background: white; }
   .index { margin: 60px auto; width: 90%; background: white; }
   div.index { display: flex; justify-content: center; }
