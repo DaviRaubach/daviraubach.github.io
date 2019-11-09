@@ -36,7 +36,7 @@
     to { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
   @keyframes exampletwo { from { opacity: 0; }
     to { opacity: 1; } }
-  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; margin-right: 2%; margin-left: 2%; animation-name: exampletwo; animation-duration: 5s; }
+  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; animation-name: exampletwo; animation-duration: 5s; }
   div.test:hover { opacity: 1; animation-name: example; animation-duration: 0.3s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { background-color: #EEE; color: black; }
   a { text-decoration: none; color: #999; margin-right: 10px; }
