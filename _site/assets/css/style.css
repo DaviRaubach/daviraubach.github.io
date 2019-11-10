@@ -6,11 +6,11 @@
   img { border-radius: 3px; }
   @keyframes exampletwo { from { opacity: 0; }
     to { opacity: 1; } }
-  div.test { border-radius: 3px; margin: auto; width: 40%; display: inline-table; text-align: center; padding: 4%; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); animation-name: exampletwo; animation-duration: 8s; }
+  div.test { border-radius: 3px; margin: auto; margin-bottom: 5px; width: 40%; display: inline-table; text-align: center; padding: 4%; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); animation-name: exampletwo; animation-duration: 8s; }
   div.test:hover { opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { background-color: #EEE; color: black; }
   a { text-decoration: none; color: #999; margin-right: 10px; }
-  a.nav2 { text-decoration: none; color: #999; font-family: serif; font-size: 1.3em; padding-bottom: -20px; }
+  a.nav2 { text-decoration: none; color: #999; font-family: serif; font-size: 1.1em; padding-bottom: -20px; }
   a.nav2:hover { color: #000; }
   a:hover { text-decoration: underline; }
   h1 { text-align: right; font-size: 1.9em; font-family: 'Times'; }
@@ -20,7 +20,8 @@
   p3 { font-size: 1.1em; line-height: 1.4em; color: black; font-style: italic; }
   p4 { font-size: 0.9em; color: black; }
   footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
-  audio { width: 240px; } }
+  audio { width: 240px; }
+  iframe { width: 99%; } }
 
 /*____________________________________________________________________________________________*/
 @media only screen and (min-width: 401px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }

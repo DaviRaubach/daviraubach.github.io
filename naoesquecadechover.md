@@ -4,5 +4,5 @@ title: Não esqueça de chover
 ---
 
 
-Soon... Album of songs.
+Em breve, um álbum de canções.
 

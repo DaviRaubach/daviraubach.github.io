@@ -29,7 +29,7 @@ Microphones: **AKG C214** and **C3000**
 
 Excerpts:
 
-<audio controls>
+<audio controls title="PopRock">
   <source src="/assets/audio/DaviRaubach-example02.mp3" type="audio/mp3">
 Your browser does not support the audio element.</audio>
 <audio controls>
