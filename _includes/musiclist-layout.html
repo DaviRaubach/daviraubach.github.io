@@ -44,13 +44,13 @@
 
 	{% endif %}
 	{% if item.materials != none %}
-	<details><summary><p4><a href="{{item.materials}}" target="blanck"  style="color:#333;">software and other materials for performance
-    </a></p4></summary>
-    <br>
+	<details><summary><p4>software and other materials for performance
+    </p4></summary>
+    {{item.materials}}
+  
 </details>
     {% endif %}
     
-    </br>
     
     {{item.video}}
     
