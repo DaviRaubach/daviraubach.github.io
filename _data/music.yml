@@ -14,6 +14,50 @@
   video: <iframe width="100%" height="315" src="https://www.youtube.com/embed/n0OOz15sEbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-- name: Peça 2
-  description: Premiered Premiered
+- name: To Be Born Stone, to Die Cloud
+  date: 2018
+  instrumentation: for guitar and electronics
+  description: Premiered by Eric Moreira at SESC Paço da Liberdade, Curitiba, on November 22, 2018.
+  link: https://drive.google.com/file/d/1GFxcItsnHwct95TNHAmTRQXR1R1HVmJY/preview
+  audio:
+  video: <iframe width="100%" height="315" src="https://www.youtube.com/embed/gGd4Dr5hYp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- name: Essay on Curtains
+  date: 2018
+  instrumentation: acousmatic
+  description: Premiered on Círculo de Invenção Musical (CIM) concert as part of the Symposium International of New Music 2018 at Sesc Paço da Liberdade in Curitiba.
+  link:
+  audio: 
+  video: <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/521324034&color=%23040405&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+
+- name: Autumn Ground
+  date: 2019
+  instrumentation: for flute and electronics
+  description: 'Premiered by Valentina Daldegan. "Chão de outono" is the result of a collaboration between the composer and the flutist Valentina Daldegan. It is based on the homonymous poem of Mario Quintana. This is a possible translation for it:'
+
+  poem:
+    - Autumn Floor
+    - Throughout the uneven stones of the paving, poor yellow leaves in a panic pass by, pursued by an invitation of burial, sinister, crackling, each time nearer and nearer, two wings dressed in black!
+    - 
+
+  descriptionII: Throughout the piece, the flutist recites the poem and plays the flute concurrently.
   link: https://drive.google.com/file/d/1z8v9U1pQHrwlD2crRYyDXW2KD4HkwvMG/preview
+  materials: https://mega.nz/#F!hXgySC6D!XXkY7NEGhVI77qQJYW0PAQ
+  video: <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/484105302&color=%2398999c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><p>Pre-revision version:</p><iframe width="100%" height="315" src="https://www.youtube.com/embed/l3-ULyfGk2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+- name: Satolep in Ruins
+  date: 2017
+  instrumentation: for soprano, flute and piano
+  description: Not premiered.
+  poem:
+  link: https://drive.google.com/file/d/1sgM7jbpDKL8lW9KoV9H4dGu1ibB1ql90/preview
+
+- name: Piece for Accordion and Electronics
+  date: 2016
+  instrumentation:
+  description: Premiered by Davi Raubach.
+  poem:
+  link: https://drive.google.com/file/d/1sgM7jbpDKL8lW9KoV9H4dGu1ibB1ql90/preview
+  video: <iframe width="100%" height="315" src="https://www.youtube.com/embed/4Ktbq1bQPRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

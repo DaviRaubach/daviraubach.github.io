@@ -10,11 +10,11 @@
 	</br>
     {{item.description}}
     </br>
-    </br>
 	</p>
 	
+	{% if item.poem != none %}
 	<center>
-		<p3>
+	<p3>
     {% for item in item.poem %}
 	
 	{{item}}
@@ -23,7 +23,19 @@
 	{% endfor %}
 	</p3>
 	</center>
-    
+	{% endif %}
+
+	{% if item.descriptionII != none %}
+	{{item.descriptionII}}
+	<br>
+	{% endif %}
+
+
+	{% if item.audio != none %}
+	<a href="{{item.audio}}" target="blanck">
+    audio 
+    </a>
+    {% endif %}
     {% if item.link != none %}
     <details>
     	<summary><p4>score</p4></summary>
@@ -31,8 +43,12 @@
 	</details>
 
 	{% endif %}
-    </br>
-    {{item.audio}}
+	{% if item.materials != none %}
+	<details><summary><p4><a href="{{item.materials}}" target="blanck"  style="color:#333;">software and other materials for performance
+    </a></p4></summary>
+    <br>
+</details>
+    {% endif %}
     
     </br>
     
