@@ -11,20 +11,45 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <div widht="100%" style="text-align: right; margin-right: 15px; margin-bottom: 15px;"><a href="index-pt.html">Português</a><a href="index.html">English</a></div>
-    <div class="form" widht="100%" style="text-align: right; margin-right: 15px; margin-bottom: 15px;">
-  <form class="form-signin" >
-  <label for="inputEmail" class="sr-only">Email</label>
-  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-  <button class="btn-newsletter" type="submit">Subscribe</button>
-</form>
-</div>
+   
 
   </head>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDtNFdZwk_YYyh96ZhA1ZT1N2T6AnMkLKQ",
+    authDomain: "newsletter-2f38f.firebaseapp.com",
+    databaseURL: "https://newsletter-2f38f.firebaseio.com",
+    projectId: "newsletter-2f38f",
+    storageBucket: "newsletter-2f38f.appspot.com",
+    messagingSenderId: "536607647349",
+    appId: "1:536607647349:web:0c8c256e4ea3d2dc57fa3c",
+    measurementId: "G-41W7WKVN2E"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
 
   <body class="index">
   {{ content }}
 <div class="index">
- 
+  <div class="form" widht="100%" style="text-align: right; margin-right: 15px; margin-bottom: 15px;">
+  <form class="form-signin" >
+  <label for="inputEmail" class="sr-only">Email</label>
+  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Subscribe</button>
+</form>
+</div>
 
 <div class="test"><a class="nav2" href="/about.html">
 composition </br> and research</a></br>
@@ -53,30 +78,6 @@ accordion</a></br><p style="padding: 0px; margin:0px;" >hire me</p>
     </footer>
 
 
-   <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDtNFdZwk_YYyh96ZhA1ZT1N2T6AnMkLKQ",
-    authDomain: "newsletter-2f38f.firebaseapp.com",
-    databaseURL: "https://newsletter-2f38f.firebaseio.com",
-    projectId: "newsletter-2f38f",
-    storageBucket: "newsletter-2f38f.appspot.com",
-    messagingSenderId: "536607647349",
-    appId: "1:536607647349:web:0c8c256e4ea3d2dc57fa3c",
-    measurementId: "G-41W7WKVN2E"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-
-</script>
 
 
   </body>
