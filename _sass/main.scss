@@ -95,7 +95,7 @@ div.test:hover {
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #888;
     margin-right: 10px;
  
 }
@@ -103,7 +103,7 @@ a {
 a.nav2 {
 
     text-decoration: none;
-    color: #999;
+    color: #888;
     font-family: serif;
     font-size: 1.1em;
     padding-bottom: -20px;
@@ -276,7 +276,7 @@ div.test{
 	display: inline-block;
 	text-align: center;
 	padding: 4px;
-    margin-top: 130px;
+    margin-top: 10px;
     animation-name: exampletwo;
     animation-duration: 5s;
 
@@ -294,16 +294,15 @@ div.test:hover {
 
 .current {
 
-    background-color: #EEE;
     color: black;
-
+    font-weight: bold;
 }
 
 
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #555;
     margin-right: 10px;
  
 }
@@ -311,7 +310,7 @@ a {
 a.nav2 {
 
     text-decoration: none;
-    color: #999;
+    color: #555;
     font-family: serif, 'Garamond';
     font-size: 24px;
     padding-bottom: -40px;
@@ -387,7 +386,4 @@ width: 240px;
 display: block;
 
 }
-
-
-
 }

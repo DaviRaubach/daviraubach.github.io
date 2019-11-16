@@ -9,8 +9,8 @@
   div.test { border-radius: 3px; margin: auto; margin-bottom: 5px; width: 40%; display: inline-table; text-align: center; padding: 4%; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); animation-name: exampletwo; animation-duration: 8s; }
   div.test:hover { opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .current { background-color: #EEE; color: black; }
-  a { text-decoration: none; color: #999; margin-right: 10px; }
-  a.nav2 { text-decoration: none; color: #999; font-family: serif; font-size: 1.1em; padding-bottom: -20px; }
+  a { text-decoration: none; color: #888; margin-right: 10px; }
+  a.nav2 { text-decoration: none; color: #888; font-family: serif; font-size: 1.1em; padding-bottom: -20px; }
   a.nav2:hover { color: #000; }
   a:hover { text-decoration: underline; }
   h1 { text-align: right; font-size: 1.9em; font-family: 'Times'; }
@@ -37,11 +37,11 @@
     to { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
   @keyframes exampletwo { from { opacity: 0; }
     to { opacity: 1; } }
-  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 130px; animation-name: exampletwo; animation-duration: 5s; }
+  div.test { border-radius: 3px; width: 18.7%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 10px; animation-name: exampletwo; animation-duration: 5s; }
   div.test:hover { opacity: 1; animation-name: example; animation-duration: 0.3s; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-  .current { background-color: #EEE; color: black; }
-  a { text-decoration: none; color: #999; margin-right: 10px; }
-  a.nav2 { text-decoration: none; color: #999; font-family: serif, 'Garamond'; font-size: 24px; padding-bottom: -40px; }
+  .current { color: black; font-weight: bold; }
+  a { text-decoration: none; color: #555; margin-right: 10px; }
+  a.nav2 { text-decoration: none; color: #555; font-family: serif, 'Garamond'; font-size: 24px; padding-bottom: -40px; }
   a.nav2:hover { text-decoration: none; color: #000; }
   a:hover { text-decoration: underline; }
   h1 { text-align: right; font-size: 1.9em; font-family: serif, 'Times'; }
