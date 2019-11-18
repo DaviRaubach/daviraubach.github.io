@@ -4,7 +4,7 @@ function saveToFirebase(email) {
         email: email
     };
 
-   firebase.database().ref().child('subscription-entries').set(emailObject)
+   firebase.database().ref('subscription-entries').set(emailObject);
         .then(function(snapshot) {
             success(); // some success method
         }, function(error) {
