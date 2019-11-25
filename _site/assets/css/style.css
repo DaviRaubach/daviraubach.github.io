@@ -52,6 +52,8 @@
   p3 { font-size: 1.1em; line-height: 1.4em; color: black; font-style: italic; }
   p4 { font-size: 0.9em; color: black; }
   footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
-  audio { width: 240px; display: block; } }
+  audio { width: 240px; display: block; }
+  label { font-size: 1em; line-height: 1.4em; color: #333; }
+  textarea { width: 86%; height: 150px; } }
 
 /*# sourceMappingURL=style.css.map */

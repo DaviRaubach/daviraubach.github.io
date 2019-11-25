@@ -36,62 +36,10 @@
 </div> 
 
 -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDtNFdZwk_YYyh96ZhA1ZT1N2T6AnMkLKQ",
-    authDomain: "newsletter-2f38f.firebaseapp.com",
-    databaseURL: "https://newsletter-2f38f.firebaseio.com",
-    projectId: "newsletter-2f38f",
-    storageBucket: "newsletter-2f38f.appspot.com",
-    messagingSenderId: "536607647349",
-    appId: "1:536607647349:web:0c8c256e4ea3d2dc57fa3c",
-    measurementId: "G-41W7WKVN2E"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  
-  var database = firebase.database();
-
-  var emailVar;
-
-        function getInputValue(){
-            // Selecting the input element and get its value 
-            emailVar = document.getElementById("inputEmail").value;
-            
-            // Displaying the value
-            
-        }
-
-
-var emailVarII = getInputValue(emailVar);
-
-  function writeUserData(email) {
-    
- firebase.database().ref().push().set({
-    email: email},
-    function(error) {
-    if (error) {
-      // The write failed...
-    } else {
-      alert(emailVarII);
-      // Data saved successfully!
-    }
-  
-
-  });
-}
-
-writeUserData(emailVarII);
 
 </script>
+
 
 <div class="test"><a class="nav2" href="/about.html">
 composition </br> and research</a></br>
@@ -107,6 +55,32 @@ composition </br> and research</a></br>
 accordion</a></br><p style="padding: 0px; margin:0px;" >hire me</p>
 <img src="/assets/images/img3.jpg"  width="100%" height="100%"></div>
 
+<div class="test">
+  <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/xwkpeaen"
+  method="POST"
+  target="_blank"
+>
+<a class="nav2">
+subscribe</a>
+<p style="padding: 0px; margin:0px;" >for rare updates</p>
+<br>
+  <label>
+    email:
+    <input type="text" name="_replyto" autofocus="true">
+  </label>
+ 
+
+  <!-- your other form fields go here -->
+<br>
+  <button type="submit" target="blanck">send</button>
+</form>
+<br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<br><br><br>
+</div>
 
 </div>
 </br>

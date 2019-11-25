@@ -10,4 +10,5 @@
   link: /accordion.html
 # - name: don't forget to rain
 #  link: /dontforgettorain.html
-  
+- name: contact  
+  link: /contact.html
