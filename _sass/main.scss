@@ -2,7 +2,7 @@
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px)   {
+@media only screen and (max-width: 415px)   {
   
 
 site-title {
@@ -82,6 +82,22 @@ div.test:hover {
 }
 
 
+div.subscribe{
+    border-radius: 3px;
+
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+ 
+
+}
+
+div.subscribe:hover {
+    
+}
 
 
 .current {
@@ -164,7 +180,7 @@ p4 {
 
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1em;
     text-align: left;
 
 }
@@ -179,10 +195,27 @@ iframe {
     width: 99%;
 }
 
+label {
+font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+
+}
+
+textarea {
+  width: 86%;
+  height: 150px;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
 }
 /*____________________________________________________________________________________________*/
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 416px) {
   
 
 site-title {
@@ -329,7 +362,7 @@ a.nav2 {
     text-decoration: none;
     color: #555;
     font-family: serif, 'Garamond';
-    font-size: 24px;
+    font-size: 1.6em;
     padding-bottom: -40px;
 
 }
@@ -416,5 +449,8 @@ textarea {
   height: 150px;
 }
 
+form{
+    text-align: right;
+}
 
 }

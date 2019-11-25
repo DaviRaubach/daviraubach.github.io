@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (max-width: 400px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
+@media only screen and (max-width: 415px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { width: 95%; background: white; padding: 1%; }
   body.index { width: 100%; background: white; }
   nav { font-family: serif; font-size: 1.5em; list-style: none; text-align: left; }
@@ -8,6 +8,7 @@
     to { opacity: 1; } }
   div.test { border-radius: 3px; margin: auto; margin-bottom: 5px; width: 40%; display: inline-table; text-align: center; padding: 4%; opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); animation-name: exampletwo; animation-duration: 8s; }
   div.test:hover { opacity: 1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  div.subscribe { border-radius: 3px; width: 85%; height: 100%; display: inline-block; text-align: center; padding: 10px; margin-top: 10px; }
   .current { background-color: #EEE; color: black; }
   a { text-decoration: none; color: #888; margin-right: 10px; }
   a.nav2 { text-decoration: none; color: #888; font-family: serif; font-size: 1.1em; padding-bottom: -20px; }
@@ -19,12 +20,15 @@
   p2 { font-size: 0.8em; line-height: 1.4em; color: #999; }
   p3 { font-size: 1.1em; line-height: 1.4em; color: black; font-style: italic; }
   p4 { font-size: 0.9em; color: black; }
-  footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
+  footer { border-top: 1px solid #d5d5d5; font-size: 1em; text-align: left; }
   audio { width: 240px; }
-  iframe { width: 99%; } }
+  iframe { width: 99%; }
+  label { font-size: 1em; line-height: 1.4em; color: #333; }
+  textarea { width: 86%; height: 150px; }
+  form { width: 100%; text-align: center; } }
 
 /*____________________________________________________________________________________________*/
-@media only screen and (min-width: 401px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
+@media only screen and (min-width: 416px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
   body { margin: 60px auto; width: 70%; background: white; }
   .index { margin: 60px auto; width: 90%; background: white; }
   div.index { display: flex; justify-content: center; }
@@ -42,7 +46,7 @@
   div.subscribe { border-radius: 3px; width: 100%; height: 100%; display: inline-block; text-align: center; padding: 4px; margin-top: 10px; }
   .current { color: black; font-weight: bold; }
   a { text-decoration: none; color: #555; margin-right: 10px; }
-  a.nav2 { text-decoration: none; color: #555; font-family: serif, 'Garamond'; font-size: 24px; padding-bottom: -40px; }
+  a.nav2 { text-decoration: none; color: #555; font-family: serif, 'Garamond'; font-size: 1.6em; padding-bottom: -40px; }
   a.nav2:hover { text-decoration: none; color: #000; }
   a:hover { text-decoration: underline; }
   h1 { text-align: right; font-size: 1.9em; font-family: serif, 'Times'; }
@@ -55,6 +59,7 @@
   footer { border-top: 1px solid #d5d5d5; font-size: .8em; text-align: left; }
   audio { width: 240px; display: block; }
   label { font-size: 1em; line-height: 1.4em; color: #333; }
-  textarea { width: 86%; height: 150px; } }
+  textarea { width: 86%; height: 150px; }
+  form { text-align: right; } }
 
 /*# sourceMappingURL=style.css.map */
