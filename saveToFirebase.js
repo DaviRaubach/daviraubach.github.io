@@ -1,18 +1,16 @@
+    // Get a reference to the database service
+ 
 
-function saveToFirebase(email) {
-    var emailObject = {
-        email: email
-    };
+function writeUserData(email) {
 
-   firebase.database().ref('subscription-entries').set(emailObject);
-        .then(function(snapshot) {
-            success(); // some success method
-        }, function(error) {
-            console.log('error' + error);
-            error();
-            "ERROR" // some error method
-        });
+    var emailObject = document.getElementById("inputEmail").value;
+
+    var database = firebase.database();
+    
+  firebase.database().ref().set({
+    email: emailObject,
+  });
 }
 
-saveToFirebase(email);
+
 
