@@ -102,7 +102,29 @@ accordion</a></br><p style="padding: 0px; margin:0px;" >hire me</p>
     </footer>
 
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDtNFdZwk_YYyh96ZhA1ZT1N2T6AnMkLKQ",
+    authDomain: "newsletter-2f38f.firebaseapp.com",
+    databaseURL: "https://newsletter-2f38f.firebaseio.com",
+    projectId: "newsletter-2f38f",
+    storageBucket: "newsletter-2f38f.appspot.com",
+    messagingSenderId: "536607647349",
+    appId: "1:536607647349:web:0c8c256e4ea3d2dc57fa3c",
+    measurementId: "G-41W7WKVN2E"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
   </body>
 </html>
