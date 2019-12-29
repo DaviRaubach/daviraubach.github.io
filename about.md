@@ -6,6 +6,7 @@ Davi Raubach studied music composition at the Federal University of Pelotas (Bac
 
 Simultaneously but not independently, he has dedicated his time on songwriting, choir conduction and arrangement, accordion playing, and music teaching. He teaches music for kids at Alfredo Simon School, Pelotas-RS.
 
+
 ![about](assets/images/about.png)
 
 
