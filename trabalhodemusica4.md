@@ -22,7 +22,7 @@ Duas opções:
 
 Acesse: [https://sourceforge.net/projects/ariamaestosa/](https://sourceforge.net/projects/ariamaestosa/) e clique em Download. 
 
-Tente usar sem nenhuma orientação, experimentando com os botões e funções. Caso deseje se aprofundar, envie um email para o prof. [davi@colegiosimon.com.br](davi@colegiosimon.com.br)
+Tente usar sem nenhuma orientação, experimentando com os botões e funções. Caso deseje se aprofundar, envie um email para o prof. davi@colegiosimon.com.br
 
 ou acesse a página de instrução traduzida neste [link](https://translate.google.com/translate?sl=en&tl=pt&u=https%3A%2F%2Fariamaestosa.github.io%2Fariamaestosa%2Fdocs%2Fman.html).
 
