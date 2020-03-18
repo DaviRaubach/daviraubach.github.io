@@ -20,7 +20,7 @@ Duas opções:
 
 - **Se você está usando um computador**, experimente o programa Aria Maestosa:
 
-Acesse: [https://sourceforge.net/projects/ariamaestosa/](https://sourceforge.net/projects/ariamaestosa/) e clique em Download. 
+  Acesse: [https://sourceforge.net/projects/ariamaestosa/](https://sourceforge.net/projects/ariamaestosa/) e clique em Download. 
 
 Tente usar sem nenhuma orientação, experimentando com os botões e funções. Caso deseje se aprofundar, envie um email para o prof. davi@colegiosimon.com.br
 
