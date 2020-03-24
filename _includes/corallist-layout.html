@@ -1,0 +1,94 @@
+
+	{% for item in site.data.music %}
+
+
+<details> 
+	<summary>{{item.name}}  &nbsp; <p2>{{item.instrumentation}}</p2></summary>
+	
+	<p>
+	{{item.date}}
+	</br>
+    {{item.description}}
+    </br>
+	</p>
+	
+	{% if item.poem != none %}
+	<center>
+	<p3>
+    {% for item in item.poem %}
+	
+	{{item}}
+    
+	</br>
+	{% endfor %}
+	</p3>
+	</center>
+	{% endif %}
+
+	{% if item.descriptionII != none %}
+	{{item.descriptionII}}
+	<br>
+	{% endif %}
+
+
+	{% if item.audio1 != none %}
+	Todos
+    <audio controls>
+  	<source src="{{item.audio1}}" type="audio/mp3">
+Your browser does not support the audio element.</audio>
+
+    {% endif %}
+
+    {% if item.audio2 != none %}
+	Soprano
+    <audio controls>
+  	<source src="{{item.audio2}}" type="audio/mp3">
+Your browser does not support the audio element.</audio>
+    {% endif %}
+
+   {% if item.audio3 != none %}
+	Contralto
+    <audio controls>
+  	<source src="{{item.audio3}}" type="audio/mp3">
+Your browser does not support the audio element.</audio>
+    {% endif %}
+
+    {% if item.audio4 != none %}
+	Tenor
+    <audio controls>
+  	<source src="{{item.audio4}}" type="audio/mp3">
+Your browser does not support the audio element.</audio>
+    {% endif %}
+
+    {% if item.audio5 != none %}
+	Baixos
+    <audio controls>
+  	<source src="{{item.audio5}}" type="audio/mp3">
+Your browser does not support the audio element.</audio>
+    {% endif %}
+
+    {% if item.link != none %}
+    <details>
+    	<summary><p4>score</p4></summary>
+    	<iframe src="{{item.link}}" style="width:100%; height:500px" frameborder="0" ><p>Oops! You don't support PDFs!</p></iframe> 
+	</details>
+
+	{% endif %}
+	{% if item.materials != none %}
+	<details><summary><p4>software and other materials for performance
+    </p4></summary>
+    {{item.materials}}
+  
+</details>
+    {% endif %}
+    
+    
+    {{item.video}}
+    
+
+    </details>
+
+    </br>
+    </br>
+  {% endfor %}
+
