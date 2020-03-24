@@ -1,5 +1,5 @@
 
-	{% for item in site.data.music %}
+	{% for item in site.data.coral %}
 
 
 <details> 
@@ -34,7 +34,7 @@
 	{% if item.audio1 != none %}
 	Todos
     <audio controls>
-  	<source src="{{item.audio1}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.audio1}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
 
     {% endif %}
@@ -42,28 +42,28 @@ Your browser does not support the audio element.</audio>
     {% if item.audio2 != none %}
 	Soprano
     <audio controls>
-  	<source src="{{item.audio2}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.audio2}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
    {% if item.audio3 != none %}
 	Contralto
     <audio controls>
-  	<source src="{{item.audio3}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.audio3}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
     {% if item.audio4 != none %}
 	Tenor
     <audio controls>
-  	<source src="{{item.audio4}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.audio4}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
     {% if item.audio5 != none %}
 	Baixos
     <audio controls>
-  	<source src="{{item.audio5}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.audio5}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
