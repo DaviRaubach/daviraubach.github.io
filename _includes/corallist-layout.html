@@ -3,25 +3,27 @@
 
 
 <details> 
-	<summary>{{item.name}}  &nbsp; <p2>{{item.instrumentation}}</p2></summary>
+	<summary>{{item.name}}  &nbsp; <p2>{{item.compositor}}</p2></summary>
 	
-	<p>
-	{{item.date}}
-	</br>
+
+	
+  {% if item.description != none %}
+    <p style="font-size: 1.4em">
     {{item.description}}
+    {% endif %}
     </br>
 	</p>
 	
 	{% if item.poem != none %}
 	<center>
-	<p3>
+	<p>
     {% for item in item.poem %}
 	
 	{{item}}
     
 	</br>
 	{% endfor %}
-	</p3>
+	</p>
 	</center>
 	{% endif %}
 
@@ -31,45 +33,48 @@
 	{% endif %}
 
 
-	{% if item.audio1 != none %}
+	{% if item.todos != none %}
 	Todos
     <audio controls>
-  	<source src="https://drive.google.com/uc?export=view&id={{item.audio1}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.todos}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
 
     {% endif %}
 
-    {% if item.audio2 != none %}
+    {% if item.soprano != none %}
 	Soprano
     <audio controls>
-  	<source src="https://drive.google.com/uc?export=view&id={{item.audio2}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.soprano}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
-   {% if item.audio3 != none %}
+   {% if item.contraltos != none %}
 	Contralto
     <audio controls>
-  	<source src="https://drive.google.com/uc?export=view&id={{item.audio3}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.contraltos}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
-    {% if item.audio4 != none %}
+    {% if item.tenor != none %}
 	Tenor
     <audio controls>
-  	<source src="https://drive.google.com/uc?export=view&id={{item.audio4}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.tenor}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
-    {% if item.audio5 != none %}
+    {% if item.baixo != none %}
 	Baixos
     <audio controls>
-  	<source src="https://drive.google.com/uc?export=view&id={{item.audio5}}" type="audio/mp3">
+  	<source src="https://drive.google.com/uc?export=view&id={{item.baixo}}" type="audio/mp3">
 Your browser does not support the audio element.</audio>
     {% endif %}
 
     {% if item.link != none %}
+
+    </br>
+    </br>
     <details>
-    	<summary><p4>score</p4></summary>
+    	<summary><p4>Partitura</p4></summary>
     	<iframe src="{{item.link}}" style="width:100%; height:500px" frameborder="0" ><p>Oops! You don't support PDFs!</p></iframe> 
 	</details>
 
