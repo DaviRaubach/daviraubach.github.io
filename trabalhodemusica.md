@@ -1,6 +1,6 @@
 ---
-layout: coral
-title: About
+layout: composer
+title: Trabalho de Música
 ---
 
 **Música** - Prof. Davi Raubach
