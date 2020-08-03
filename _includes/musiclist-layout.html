@@ -2,23 +2,23 @@
 	{% for item in site.data.music %}
 
 
-<details> 
+<details>
 	<summary>{{item.name}}  &nbsp; <p2>{{item.instrumentation}}</p2></summary>
-	
+
 	<p>
 	{{item.date}}
 	</br>
     {{item.description}}
     </br>
 	</p>
-	
+
 	{% if item.poem != none %}
 	<center>
 	<p3>
     {% for item in item.poem %}
-	
+
 	{{item}}
-    
+
 	</br>
 	{% endfor %}
 	</p3>
@@ -33,13 +33,13 @@
 
 	{% if item.audio != none %}
 	<a href="{{item.audio}}" target="blanck">
-    audio 
+    audio
     </a>
     {% endif %}
     {% if item.link != none %}
     <details>
     	<summary><p4>score</p4></summary>
-    	<iframe src="{{item.link}}" style="width:100%; height:500px" frameborder="0" ><p>Oops! You don't support PDFs!</p></iframe> 
+    	<iframe src="{{item.link}}" style="width:100%; height:500px" frameborder="0" ><p>Oops! You don't support PDFs!</p></iframe>
 	</details>
 
 	{% endif %}
@@ -47,17 +47,16 @@
 	<details><summary><p4>software and other materials for performance
     </p4></summary>
     {{item.materials}}
-  
+
 </details>
     {% endif %}
-    
-    
+
+
     {{item.video}}
-    
+
 
     </details>
 
     </br>
-    </br>
+  
   {% endfor %}
-
