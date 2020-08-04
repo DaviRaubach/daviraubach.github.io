@@ -1,41 +1,4 @@
-<!doctype html>
-<html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <head>
-  
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <div style="text-align: right;"><a href="index-pt.html">Português</a><a href="index.html">English</a></div>
-
-    <site-title href="/">Davi Raubach</site-title>
-    
-<nav>
-  
-    <a href="/" >home</a>
-  
-    <a href="/about.html" >about</a>
-  
-    <a href="/music.html" >compositions</a>
-  
-    <a href="/writings.html" class="current">writings</a>
-  
-    <a href="/accordion.html" >accordion</a>
-  
-    <a href="/contact.html" >contact</a>
-  
-</nav>
-     
-
-       
-
-  
-  </head>
-  <body>
-     <title>Writings</title>
-  <div class="about" style="text-align: justify">
-      <p><br /></p>
-
-<p><strong>Interaction in Mixed Electroacoustic Music</strong></p>
+I"O<p><strong>Interaction in Mixed Electroacoustic Music</strong></p>
 
 <p><a href="https://hdl.handle.net/1884/59931" target="_blank">Master Dissertation (in Portuguese), Graduate Program in Music - Music Composition, UFPR.</a></p>
 <div style="text-align: justify">
@@ -67,44 +30,4 @@ This article discusses the collaborative process used in the creation of Chão d
 <p><a href="https://www.academia.edu/32303147/Semiótica_e_Composição_A_aplicação_do_Percurso_Gerativo_de_Sentido_na_composição_de_peça_para_Acordeão_e_Piano">Undergraduate conclusion paper</a>.</p>
 
 <div style="text-align: justify">The present research is an investigation of the relations between French semiotics and musical composition in the compositional process of a piece for accordion and piano. Based on the proposal of a process that uses the concept of the generative trajectory of meaning as a tool for compositional decisions, I try to make a cross between these areas. The generative trajectory of meaning consists of three levels with different degrees of abstraction: discursive, narrative and fundamental, through which the semiotic analysis takes place. The apprehension of meaning in a text (verbal, non-verbal or syncretic) starts from the most complex and concrete level (discursive) to the most simple and abstract (fundamental), while the production of meaning goes the reverse way. In the compositional process of the piece, the first movement focused on issues concerning the fundamental level and the second focused on issues relating to the narrative level. It is a practical application in composition that involves a reciprocal activity in which, at the same time, the meaning is generated and apprehended. The monograph points to possible future applications through the elements of a compositional theory sketch.</div>
-
-</div>
-    <footer>
-<center>
-    <div class="subscribe">
-  <!-- modify this form HTML and place wherever you want your form -->
- <!--
-<form
-  action="https://formspree.io/xwkpeaen"
-  method="POST"
-  target="_blank"
-  style="text-align: right;"
- 
->
-<h1  style="padding: 0px; margin:0px; margin-right: 40px;">subscribe</h1>
-<p style="padding: 0px; margin:0px; margin-right: 30px;" >for rare updates    </p>
-<br>
-<label>
-    name:
-    <input type="text" name="_name">
-  </label>
-  <br>
-  <label>
-    email:
-    <input type="text" name="_replyto">
-  </label>
-  
-
-<br>
-  <button type="submit" target="blanck">send</button>
-</form>
--->
-</div>
-
-</center>
-    </footer>
-   
-  </body>
-</html>
-   
-    
+:ET

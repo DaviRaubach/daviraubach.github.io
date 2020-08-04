@@ -3,10 +3,10 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 415px)   {
-  
+
 
 site-title {
-	
+
 	font-size: 2em;
 	font-family: serif, 'Times';
 	text-align: left;
@@ -25,7 +25,7 @@ body {
 
 body.index {
 
-    
+
     width: 100%;
     background: white;
 
@@ -43,16 +43,19 @@ nav {
     text-align: justify;
     border-bottom: 1px solid #d5d5d5;
     padding-bottom: 5px;
-    
+
 
 }
 
 
 img {
 	border-radius: 3px;
-	
+
+
 
 }
+
+
 
 @keyframes exampletwo {
   from {
@@ -69,22 +72,22 @@ div.test{
     margin-bottom: 5px;
 	width: 40%;
 
-	
+
 	display: inline-table;
 	text-align: center;
-	
+
 	padding: 4%;
 	opacity: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: exampletwo;
-    animation-duration: 8s;
+    animation-duration: 20s;
 
 }
 
-div.test:hover {
-	opacity: 1;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+//div.test:hover {
+//	opacity: 1;
+//  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//}
 
 
 div.subscribe{
@@ -96,12 +99,12 @@ div.subscribe{
     text-align: center;
     padding: 10px;
     margin-top: 10px;
- 
+
 
 }
 
 div.subscribe:hover {
-    
+
 }
 
 
@@ -118,7 +121,7 @@ a {
     text-decoration: none;
     color: #888;
     margin-right: 10px;
- 
+
 }
 
 a.nav2 {
@@ -132,12 +135,12 @@ a.nav2 {
 
 }
 
-a.nav2:hover {
+//a.nav2:hover {
 
-    color: #000;
-    
+//    color: #000;
 
-}
+
+//}
 
 a:hover {
     text-decoration: underline;
@@ -145,9 +148,10 @@ a:hover {
 
 
 h1 {
-	text-align: right;
+	  text-align: left;
     font-size: 1.9em;
     font-family: 'Times';
+		color: #333;
 
 }
 
@@ -168,7 +172,7 @@ p2 {
     font-size: 0.8em;
     line-height: 1.4em;
     color: #999;
-    
+
 }
 
 p3 {
@@ -221,10 +225,10 @@ form {
 /*____________________________________________________________________________________________*/
 
 @media only screen and (min-width: 416px) {
-  
+
 
 site-title {
-	
+
 	font-size: 2em;
 	font-family: serif, 'Times';
 	text-align: left;
@@ -242,7 +246,7 @@ body {
     margin: 60px auto;
     width: 90%;
     background: white;
-    
+
 
 }
 
@@ -269,13 +273,14 @@ div.comp {
 
 
 nav {
-	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    
+	font-family: 'Optima';
+
     list-style: none;
     text-align: left;
     padding-top: 1%;
     padding-bottom: 1%;
     border-top: 1px solid #d5d5d5;
+		font-size: 1.1em;
 
 }
 
@@ -286,7 +291,7 @@ nav:hover {
 
 img {
 	border-radius: 3px;
-	
+
 
 }
 
@@ -309,7 +314,8 @@ img {
 div.test{
 	border-radius: 3px;
 
-	width: 18.7%;
+	//width: 18.7%;
+	width: 100%;
 	height: 100%;
 	display: inline-block;
 	text-align: center;
@@ -320,13 +326,13 @@ div.test{
 
 }
 
-div.test:hover {
-    opacity: 1;
+//div.test:hover {
+  //  opacity: 1;
 
-    animation-name: example;
-    animation-duration: 0.3s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+  //  animation-name: example;
+  //  animation-duration: 0.3s;
+  //  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+//}
 
 div.subscribe{
     border-radius: 3px;
@@ -337,12 +343,12 @@ div.subscribe{
     text-align: center;
     padding: 4px;
     margin-top: 10px;
- 
+
 
 }
 
 div.subscribe:hover {
-	
+
 }
 
 
@@ -350,7 +356,8 @@ div.subscribe:hover {
 .current {
 
     color: black;
-    font-weight: bold;
+    font-weight: normal;
+		text-decoration: underline;
 }
 
 
@@ -359,14 +366,14 @@ a {
     text-decoration: none;
     color: #555;
     margin-right: 10px;
- 
+
 }
 
 a.nav2 {
 
     text-decoration: none;
     color: #555;
-    font-family: serif, 'Garamond';
+    font-family: serif;
     font-size: 1.6em;
     padding-bottom: -40px;
 
@@ -384,21 +391,44 @@ a:hover {
 
 
 h1 {
-	text-align: right;
-    font-size: 1.9em;
-    font-family: serif, 'Times';
+		text-align: left;
+    font-size: 1.5em;
+    font-family: 'Times';
+		color: #333;
 
 }
 
 details {
-    background-color: #EEE;
-    padding: 12px;
+    background-color: none;
+    padding: 4px;
+		font-family: serif;
 }
 
 summary {
-	font-size: 1.2em;
+
+		font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
+}
+summary::-webkit-details-marker {
+  display: none
+}
+summary:after {
+  //background: red;
+  //border-radius: 5px;
+  content: " ";
+  color: #999;
+  float: right;
+  font-size: 1em;
+  //font-weight: bold;
+  //margin: -5px 10px 0 0;
+  //padding: 0;
+  //text-align: center;
+  //width: 20px;
+}
+details[open] summary:after {
+  content: " ";
+	font-size: 1em;
 }
 
 p {
@@ -407,11 +437,13 @@ p {
     color: #333;
 }
 
+
+
 p2 {
     font-size: 0.8em;
     line-height: 1.4em;
     color: #999;
-    
+
 }
 
 p3 {
@@ -427,7 +459,7 @@ p4 {
 }
 
 footer {
-    
+
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     text-align: left;

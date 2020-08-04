@@ -2,7 +2,8 @@
 layout: composer
 title: Writings
 ---
-<h1>{{ page.title }}</h1>
+<br>
+
 **Interaction in Mixed Electroacoustic Music**
 
 
