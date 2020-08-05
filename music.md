@@ -2,5 +2,4 @@
 layout: musiclist
 title: works
 ---
-<br>
-<div style="text-align: right; color:#555; font-family:sans-serif; font-size:0.8em;"> click to show work documentation </div>
+<div style="text-align: right; color:#999; font-family:sans-serif; font-size:0.8em; padding: 20px;"> click to show work documentation </div>

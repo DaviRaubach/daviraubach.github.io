@@ -34,7 +34,7 @@
 - name: Autumn Floor
   date: 2017-8
   instrumentation: for flute and electronics
-  description: 'Premiered by Valentina Daldegan. "Chão de outono" is the result of a collaboration between the composer and the flutist Valentina Daldegan. It is based on the homonymous poem of Mario Quintana. This is a possible translation for it:'
+  description: 'Premiered by Valentina Daldegan. "Chão de outono" is the result of a collaboration between the composer and the flutist Valentina Daldegan. It is based on the homonymous poem of Mario Quintana (Chão de outono). This is a possible translation for it:'
 
   poem:
     - Autumn Floor
@@ -90,7 +90,7 @@
   instrumentation: for accordion, guitar and voice
   poem:
     - What moves me the most, in music, are these loose notes, poor single notes that the piano tuner pulls out of the keyboard...
-  description: based on Mario Quintana homonymous poem.
+  description: based on Mario Quintana's poem "Meu trecho predileto".
   link: https://drive.google.com/file/d/1po3KDsKPmJsfcUvbE7n9oMuFRRo1Yiqk/preview
 
 - name: Sonate
