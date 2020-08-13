@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: daviraubach.com
+Token: 7867410c4ed86251d67caa37187ed69183fc020c405dff3219cb0d52292ebffa
