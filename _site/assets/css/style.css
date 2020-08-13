@@ -35,8 +35,8 @@
 /*____________________________________________________________________________________________*/
 /* Computer Styles */
 @media only screen and (min-width: 416px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
+  head { width: 580px; }
   body { margin: 60px auto; width: 580px; background: white; }
-  .index { margin: auto; width: 90%; background: white; }
   div.index { display: flex; justify-content: center; }
   div.about { margin: auto; width: 580px; }
   div.comp { margin: auto; width: 580px; text-align: left; }
