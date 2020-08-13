@@ -30,11 +30,15 @@
   form { width: 100%; text-align: center; } }
 
 /*____________________________________________________________________________________________*/
+/*____________________________________________________________________________________________*/
+/*____________________________________________________________________________________________*/
+/*____________________________________________________________________________________________*/
+/* Computer Styles */
 @media only screen and (min-width: 416px) { site-title { font-size: 2em; font-family: serif, 'Times'; text-align: left; }
-  body { margin: 60px auto; width: 70%; background: white; }
-  .index { margin: 60px auto; width: 90%; background: white; }
+  body { margin: 60px auto; width: 580px; background: white; }
+  .index { margin: auto; width: 90%; background: white; }
   div.index { display: flex; justify-content: center; }
-  div.about { margin: auto; width: 560px; }
+  div.about { margin: auto; width: 580px; }
   div.comp { margin: auto; width: 580px; text-align: left; }
   nav { font-family: 'Optima'; list-style: none; text-align: left; padding-top: 1%; padding-bottom: 1%; border-top: 1px solid #d5d5d5; font-size: 1.1em; }
   nav:hover { border-top: 1px solid black; }

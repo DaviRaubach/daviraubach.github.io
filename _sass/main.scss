@@ -1,10 +1,5 @@
-
-
-
 /* Mobile Styles */
 @media only screen and (max-width: 415px)   {
-
-
 site-title {
 
 	font-size: 2em;
@@ -13,8 +8,6 @@ site-title {
 
 
 }
-
-
 body {
 
     width: 95%;
@@ -22,7 +15,6 @@ body {
     padding: 1%;
 
 }
-
 body.index {
 
 
@@ -31,8 +23,6 @@ body.index {
 
 
 }
-
-
 nav {
     border-top: 1px solid #d5d5d5;
 	font-family: 'Optima';
@@ -46,17 +36,12 @@ nav {
 
 
 }
-
-
 img {
 	border-radius: 3px;
 
 
 
 }
-
-
-
 @keyframes exampletwo {
   from {
     opacity: 0;
@@ -65,7 +50,6 @@ img {
     opacity: 1;
     }
 }
-
 div.test{
 	border-radius: 3px;
     margin:auto;
@@ -83,13 +67,10 @@ div.test{
     animation-duration: 20s;
 
 }
-
 //div.test:hover {
 //	opacity: 1;
 //  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 //}
-
-
 div.subscribe{
     border-radius: 3px;
 
@@ -102,28 +83,19 @@ div.subscribe{
 
 
 }
-
-div.subscribe:hover {
-
-}
-
-
+div.subscribe:hover {}
 .current {
 
     background-color: #EEE;
     color: black;
 
 }
-
-
-
 a {
     text-decoration: none;
     color: #888;
     margin-right: 10px;
 
 }
-
 a.nav2 {
 
     text-decoration: none;
@@ -134,19 +106,9 @@ a.nav2 {
 
 
 }
-
-//a.nav2:hover {
-
-//    color: #000;
-
-
-//}
-
 a:hover {
     text-decoration: underline;
 }
-
-
 h1 {
 	  text-align: left;
     font-size: 1.9em;
@@ -154,14 +116,11 @@ h1 {
 		color: #333;
 
 }
-
-
 details {
     background-color: none;
     padding: 4px;
 		font-family: serif;
 }
-
 summary {
 
 		font-size: 1.2em;
@@ -188,71 +147,60 @@ details[open] summary:after {
   content: " ";
 	font-size: 1em;
 }
-
 p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
-
 p2 {
     font-size: 0.8em;
     line-height: 1.4em;
     color: #999;
 
 }
-
 p3 {
     font-size: 1.1em;
     line-height: 1.4em;
     color: black;
     font-style: italic;
 }
-
 p4 {
     font-size: 0.9em;
     color: black;
 }
-
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
     text-align: left;
 
 }
-
-audio
-{
-width: 240px;
-
-}
-
+audio{width: 240px;}
 iframe {
     width: 99%;
 }
-
-label {
-font-size: 1em;
+label {font-size: 1em;
     line-height: 1.4em;
     color: #333;
 
 }
-
 textarea {
   width: 86%;
   height: 150px;
 }
-
 form {
     width: 100%;
     text-align: center;
-}
-
-}
+}}
+/*____________________________________________________________________________________________*/
+/*____________________________________________________________________________________________*/
+/*____________________________________________________________________________________________*/
 /*____________________________________________________________________________________________*/
 
-@media only screen and (min-width: 416px) {
 
+
+
+/* Computer Styles */
+@media only screen and (min-width: 416px) {
 
 site-title {
 
@@ -262,19 +210,22 @@ site-title {
 
 }
 
+head {
+
+	}
 
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 580px;
     background: white;
+
 }
 
+
 .index {
-    margin: 60px auto;
+    margin: auto;
     width: 90%;
     background: white;
-
-
 }
 
 div.index{
@@ -285,7 +236,7 @@ div.index{
 div.about {
 
     margin:auto;
-    width: 560px;
+    width: 580px;
 
 }
 
