@@ -9,4 +9,5 @@ Invenção Musical), a group of young composers, and his compositions have been 
 Assemble, which worked with improvised performances mixing dance, visual art, and music.
 
 Simultaneously, but not independently, he has dedicated his time to songwriting, choir conducting and arranging, accordion playing, and music teaching. 
+
 ![about](assets/images/about.png)
