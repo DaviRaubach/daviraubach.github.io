@@ -67,6 +67,19 @@
   audio:
   video: <iframe width="100%" height="315" src="https://www.youtube.com/embed/StGfpgi3p10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- name: Prelude
+  date: 2020
+  instrumentation: organ and computer
+  description:
+    - not yet premiered
+    - link: https://github.com/DaviRaubach/prelude_for_organ/blob/main/score.pdf
+  poem:
+    - 
+
+  link: https://github.com/DaviRaubach/prelude_for_organ/blob/main/score.pdf
+  audio:
+  video: 
+  
 - name: After the Wind
   date: 2019
   instrumentation: acousmatic
