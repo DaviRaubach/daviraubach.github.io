@@ -1,16 +1,69 @@
 - name: The Voice of Pages
   date: 2022
   instrumentation: ensemble and electronics
-  description: Piece for the Plurisons Festival 2022
+  description:
+    - Piece composed for Plurisons Festival 2022 - https://www.plurisons.com/
+
+    - Premiered on 07/30/2022.
+    - 
+    - Ensemble:
+    - Januibe Tejera - conductor
+    - Danilo Mezzadri - alto flute
+    - Batista Jr - bass clarinet
+    - Ana Cláudia Assis - piano
+    - Rémy Reber - electric guitar
+    - Mariana Salles - violin
+    - Elise Pittenger - cello
+    - Ticiano Rocha - electroacoustic
+    - 
+    - 
+    - The title makes reference to the practice of medieval reading mentioned by Tim Ingold in some of his texts. In this piece, reading has a poetic function. A text is read by the instrumentalists silently or not. Instrumental gestures are associated with syllables. The same text is presented in a score for the listeners who participate by reading it in moments and in foreseen ways.
+    - 
+    - 
+    - *skin and word*
+    - we dream together, we wake up and keep dreaming
+    - we are many and we continue
+    - we dream together, we wake up and keep dreaming
+    - we all lay down together and warm our feet
+    - we dream together, we wake up and keep dreaming
+    - holy and dirty, our thick skin
+    - extends and saves us from the pages
+    - we went to bed with our feet full of paths
+    - we walked together, we woke up and we kept walking
+    - we kept waking up on our peerless skin
+    - bed is the path where we lie down together and warm our feet
+    - we dream, we wake up and keep dreaming
+    - a song was born from the meager heat
+    - with little space, it uncomposed at our aroeira seedling
+    - we murmur good night, we wake up and continue singing
+    -
+    - our skin keeps stretching
+    - our dream never stops
   
   poem:
-    - I lost myself by this space
-    - slowly walking after the wind
-    - attentive to the broken sidewalk tiles
-    - and carried these sounds to here like one who carries water
-    - every portion in a sieve
+    - *pele e palavra*
+    - sonhamos juntos, acordamos e seguimos sonhando
+    - nós somos muitos e continuamosss
+    - sonhamos juntos, acordamos /e seguimos sonhando/
+    - deitamos _todos_ juntos e aquecemos nossos pésss
+    - sonhamos /juntos, acordamos e seguimos sonhando/
+    - _santos_ /e sujos/, nossa _pele_ espessa
+    - se estende e /nos/ _salva_ *dos papéis*
+    - 
+    - fomos deitar com os pés cheios de caminhos
+    - caminhamos juntos, /acordamos e seguimos/ *caminhando*
+    - /seguimos acordando/ *sobre nossa pele sempar*
+    - _cama é caminho_ onde deitamos juntos e aquecemos nossos pés
+    - *sonhamos, acordamos e seguimos sonhando*
+    - *uma canção nasceu do calor escasso*
+    - *com pouco espaço* se des- *com-* _pôs aos nossos pés_ de aroeira brava
+    - _murmuramos boa noite, acordamos e seguimos cantando_
+    - 
+    - *nossa pele não* _para de_ /se estender/
+    - *nosso sonho não* _para de_ acabar
 
-  link:
+
+  link: https://drive.google.com/file/d/1cFzFXuAevtha9m3_GM9HHUEDZOARzNK0/preview
   audio:
   video: <iframe width="100%" height="315" src="https://www.youtube.com/embed/StGfpgi3p10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
