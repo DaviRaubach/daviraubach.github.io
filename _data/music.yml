@@ -1,3 +1,19 @@
+- name: The Voice of Pages
+  date: 2022
+  instrumentation: ensemble and electronics
+  description: Piece for the Plurisons Festival 2022
+  
+  poem:
+    - I lost myself by this space
+    - slowly walking after the wind
+    - attentive to the broken sidewalk tiles
+    - and carried these sounds to here like one who carries water
+    - every portion in a sieve
+
+  link:
+  audio:
+  video: <iframe width="100%" height="315" src="https://www.youtube.com/embed/StGfpgi3p10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - name: After the Wind
   date: 2019
   instrumentation: acousmatic

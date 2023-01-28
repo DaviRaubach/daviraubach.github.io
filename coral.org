@@ -1,0 +1,20 @@
+#+title: Letras, partituras e gravações para ensaio
+#+subtitle: Coral da Comunidade São João - Pelotas RS
+#+Author: Davi Raubach
+#+Email: raubachdavi@gmail.com
+#+OPTIONS: num:nil toc:nil reveal_title_slide:nil
+
+
+** O Verbo Virou Gente
+
+*** Partitura
+#+begin_export html
+<
+<iframe src="https://drive.google.com/file/d/1Fsi59ZswC4wBrye0TsqSKFJQO4lz5Af8/preview" width="640" height="480" allow="autoplay"></iframe>
+#+end_export
+
+*** Gravações
+
+#+begin_export html
+<iframe src="https://drive.google.com/file/d/1-xJIdj-ZUxYauxftSIboyRLW8MPODGOe/preview" width="640" height="75" allow="autoplay"></iframe>
+#+end_export
