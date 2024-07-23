@@ -1,3 +1,20 @@
+- name: Nuvens-ilhas
+  date: 2023
+  instrumentation: Piccolo, guitar, cello, and soprano sax 
+  description: Premier by Ensemble Móbile at 40th Oficina de Música de Curitiba
+  poem:
+  - palavra atirada contra a água
+  - salta, salta, voa
+  - pousa sobre as nuvens
+  - mergulha cada vez mais fundo
+  - cada vez mais alto
+  - seduz a língua e escoa
+  - escoa, salta, voa
+  - cada vez mais sonhada
+
+  link: https://drive.google.com/file/d/1Dh-LvsJgYQpMjuBjgetQEmv9O8l33XRs/preview
+  video: <iframe width="100%" height="315" src="https://youtu.be/VXnBZoraSW4?si=sWN0xSyeat89-DzT" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - name: The Voice of Pages
   date: 2022
   instrumentation: ensemble and electronics
