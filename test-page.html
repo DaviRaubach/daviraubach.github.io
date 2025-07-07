@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Using Emacs and Org-mode as a static site generator</title>
+<meta name="author" content="Dennis Ogbe" />
+<meta name="generator" content="Org Mode" />
+<script src='/res/code.js'></script>
+<link rel='stylesheet' href='/res/style.css'>
+<link rel='shortcut icon' type='image/x-icon' href='/img/favicon.ico'>
+<link rel='alternate' type='application/rss+xml' title='RSS Feed for ogbe.net' href='/blog-feed.xml'>
+<link rel='stylesheet' href='/res/margin-style.css'>
+</head>
+<body>
+<div id="preamble" class="status">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Raubach</title>
+</head>
+<body>
+    <header>
+        <a href="/" class="site-title">Davi Raubach</a>
+        <nav>
+            <a href="/about" class="nav-link">about</a>
+            <a href="/blog" class="nav-link">blog</a>
+            <a href="/music" class="nav-link">music</a>
+            <a href="/research" class="nav-link">research</a>
+        </nav>
+    </header>
+</body>
+</html>
+</div>
+<div id="content" class="content">
+<header>
+<h1 class="title">Using Emacs and Org-mode as a static site generator</h1>
+</header>
+<div id="outline-container-intro" class="outline-2">
+<h2 id="intro">Introduction</h2>
+<div class="outline-text-2" id="text-intro">
+<div class="PREVIEW" id="org1b02fcc">
+<p>
+For reasons that I don't yet fully understand<span id="fnr.1" class="sidenote-number"><a href="#fn.1"><sup>1</sup></a></span><span class="sidenote" id="sn.1"><span><sup>1</sup></span>That was a lie. Of course I know why. It's because playing with this website is <b>fun</b> and during the holidays I actually have time to have fun 😊. By the way, this is the first article that I am writing with my new, tufte-css inspired style. I hope it works out.</span>, I spend a considerable amount of time during the holidays tweaking and updating this website. The resulting static site generator has now grown in complexity to a point where my previous posts are woefully outdated and rather confusing to read. So why not make an updated "This is how this site is built" post for the year 2025? Alright, saddle up.
+</p>
+
+</div>
+
+<p>
+The first iteration of this website was generated using Pelican. This was mostly due to the fact that I was not an Emacs user yet and that Markdown seemed like a reasonable choice for a simple static site at the time<span id="fnr.2" class="sidenote-number"><a href="#fn.2"><sup>2</sup></a></span><span class="sidenote" id="sn.2"><span><sup>2</sup></span>I still think that Markdown + Pelican is a decent choice for a personal website. But if you are like me, that's juuust not emacsy enough&#x2026;</span>. I rebooted the website at some point in 2018, which coincided with me moving from the old Markdown + Pelican setup to using the Org-mode publishing features exclusively. The current design of the site is essentially the same as this first iteration, but the build process and especially the CSS style sheets have changed considerably over the years. At this point, I believe that I have arrived at a somewhat stable point with the build system, so now might be a good time to give an in-depth overview of how this website is built.
+</p>
+</div>
+</div>
+
+<div id="outline-container-build-process" class="outline-2">
+<h2 id="build-process">The build process&#x2014;a 1000-ft view</h2>
+<div class="outline-text-2" id="text-build-process">
+<p>
+The site starts as a run-of-the-mill private GitHub repo containing all of the source files:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-fundamental">website
+&#9507; bib        // BibTeX files for my CV and Publications page
+&#9507; bin        // Python source code for CSS and JS minifiers
+&#9507; blog       // .org files for blog articles
+&#9507; css        // CSS and JS source files
+&#9507; cv         // LaTeX project for my CV
+&#9507; dl         // misc. files to download
+&#9507; html       // misc. HTML (website header and footer)
+&#9507; img        // images
+&#9507; lisp       // Emacs Lisp code to build the site
+&#9507; pages      // .org files for non-blog pages, like index.html
+&#9495; README.org // smol README
+</pre>
+</div>
+
+<p>
+With the exception of the actual Emacs source code, this is entirely self-contained; there are no other external dependencies<span id="fnr.3" class="sidenote-number"><a href="#fn.3"><sup>3</sup></a></span><span class="sidenote" id="sn.3"><span><sup>3</sup></span>This is important to me. I even make sure to serve all fonts (and even MathJax) from my server. I just don't like the idea of some external content going away and breaking my site.</span>. From here, I use the Org-mode publishing machinery to generate the HTML you are viewing. At first, I started out using the standard Org-mode HTML export code, but I have since resulted to defining my own HTML export backend to generate this site. I will describe this backend in detail below.
+</p>
+
+<p>
+A blog article or static page (static pages are the landing page, the about page, etc.) starts as an org-mode file either in the <code>pages</code> or <code>blog</code> subdirectory. As an example, the listing below contains the first few paragraphs of this post as I am writing it.
+</p>
+</div>
+</div>
+<details id="footnotes-details"><summary class="footnote-summary">Footnotes</summary>
+<div class="footnote-table">
+<table style="margin: 0 0 0 0; max-width:100%">
+<tr class="fn-tbl-row">
+<td class="fn-tbl-number"><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></td>
+<td class="fn-tbl-item"><p class="footpara">That was a lie. Of course I know why. It's because playing with this website is <b>fun</b> and during the holidays I actually have time to have fun 😊. By the way, this is the first article that I am writing with my new, tufte-css inspired style. I hope it works out.</p></td></tr>
+<tr class="fn-tbl-row">
+<td class="fn-tbl-number"><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></td>
+<td class="fn-tbl-item"><p class="footpara">I still think that Markdown + Pelican is a decent choice for a personal website. But if you are like me, that's juuust not emacsy enough&#x2026;</p></td></tr>
+<tr class="fn-tbl-row">
+<td class="fn-tbl-number"><a id="fn.3" class="footnum" href="#fnr.3" role="doc-backlink">3</a></td>
+<td class="fn-tbl-item"><p class="footpara">This is important to me. I even make sure to serve all fonts (and even MathJax) from my server. I just don't like the idea of some external content going away and breaking my site.</p></td></tr>
+</table></div></details>
+</div>
+<div id="postamble" class="status">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Min</title>
+    <style>
+        footer {
+            padding: 2rem;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 1px solid #eee;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-link {
+            text-decoration: none;
+        }
+        
+        .copyright {
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .footer-links {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-links">
+            <a href="mailto:daviraubach@disroot.org" class="footer-link">contact</a>
+            <a href="https://soundcloud.com/daviraubach" class="footer-link">soundcloud</a>
+            <a href="https://youtube.com/daviraubach" class="footer-link">youtube</a>
+            <a href="https://codeberg.org/daviraubach" class="footer-link">codeberg</a>
+            <a href="https://github.com/daviraubach" class="footer-link">github</a>
+        </div>
+        <div class="copyright">
+          © <span id="year"></span> All rights reserved.
+	  <br>
+	  <p>Para utilização dos materiais destas páginas, entrar em contato através do e-mail</p>
+	  <p>Contact me by e-mail for using the materials in this website</p>
+	  <br>
+	  <p>daviraubach[at]disroot.org</p>
+        </div>
+    </footer>
+
+    <script>
+        // Atualiza o ano automaticamente
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+</div>
+</body>
+</html>
