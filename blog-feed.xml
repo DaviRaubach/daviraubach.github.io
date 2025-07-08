@@ -15,8 +15,8 @@
   <link>https://ogbe.net/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Thu, 05 Jun 2025 22:32:05 -0300</pubDate>
-  <lastBuildDate>Thu, 05 Jun 2025 22:32:05 -0300</lastBuildDate>
+  <pubDate>Mon, 07 Jul 2025 21:25:27 -0300</pubDate>
+  <lastBuildDate>Mon, 07 Jul 2025 21:25:27 -0300</lastBuildDate>
   <generator>Emacs 29.4 Org-mode 9.6.15</generator>
   <webMaster>do@ogbe.net (Dennis Ogbe)</webMaster>
   <image>
@@ -29,7 +29,7 @@
     <title>Rápida introdução ao LilyPond</title>
     <link>https://ogbe.net/blog/lilypond</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">FD7F54AE-F4A5-465D-AF8B-D090B293DE30</guid>
+    <guid isPermaLink="false">FB9046C1-5E44-489C-B39D-5CFF9F241511</guid>
     <pubDate>Fri, 09 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -42,7 +42,7 @@
     <title>indexold</title>
     <link>https://ogbe.net/blog/indexold</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">3DE61652-02FE-4366-9118-A4975652131E</guid>
+    <guid isPermaLink="false">EC352B8C-E337-41F8-B1E2-E845D46BB529</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -55,7 +55,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/tre - cópia</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">CA541006-6D47-476A-9159-DE1630E3AECE</guid>
+    <guid isPermaLink="false">E5BC8D74-2E89-4163-B1B9-EB3664BB1353</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -68,7 +68,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/uyt - cópia</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">3DF89550-262E-455B-AB1A-ED59039756DF</guid>
+    <guid isPermaLink="false">84BC2AD9-C82B-4405-ABD0-DF31EBF6ABFB</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -81,7 +81,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/uyt</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">D46C5CA2-1B76-4E13-9CE9-774D9A5DD814</guid>
+    <guid isPermaLink="false">838D190B-88B8-4519-9FA6-DD640690BFE7</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -94,7 +94,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/ytr - cópia</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">235D336E-CFDA-4AAD-861E-EF607BBDDE67</guid>
+    <guid isPermaLink="false">5C1E1B1B-3587-4791-A8AE-FE2F0B5DCDA7</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -107,7 +107,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/tre</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">E6619FB5-3D12-4D3C-A47D-51857F4A5477</guid>
+    <guid isPermaLink="false">82191E3A-7D32-428A-B70A-B2A28A902C5A</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -120,7 +120,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/ytr</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">2A944F9D-4F0E-40A2-A1E2-C0E3313D3A2A</guid>
+    <guid isPermaLink="false">686A391B-6CAB-40B0-9820-DB7E2FCC0335</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -133,7 +133,7 @@
     <title>test</title>
     <link>https://ogbe.net/blog/teste2</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">8415970F-8EB1-4E41-B15B-4CBFA9E6A1D1</guid>
+    <guid isPermaLink="false">F83CBCE5-344A-4369-8D12-EBBFF54E9FD0</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -146,7 +146,7 @@
     <title>Using Emacs and Org-mode as a static site generator</title>
     <link>https://ogbe.net/blog/test</link>
     <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">411B98A3-0655-4190-9AF1-2C96BBE3194F</guid>
+    <guid isPermaLink="false">0EF5FB7B-EC73-4605-B141-FDBEFB9451C7</guid>
     <pubDate>Sun, 29 Dec 2024 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
