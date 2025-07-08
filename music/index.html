@@ -37,8 +37,8 @@
 <div id="content" class="content">
 <header>
 <h1 class="title">Catálogo</h1>
-<div class="subheader"><p><i>Published: Junho 04, 2025</i></p></div>
-</header><table id="org176092b">
+<div class="subheader"><p><i>Published: Julho 07, 2025</i></p></div>
+</header><table id="org77e864f">
 
 
 <colgroup>
@@ -176,9 +176,15 @@
 </tbody>
 </table>
 
+
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script src="https://cdn.datatables.net/2.3.1/js/dataTables.min.js"></script>
-<script> $("table").DataTable(); </script>
+<script>
+$('table').DataTable({
+"pageLength": 18,
+"order": [0,'asc']
+});
+</script>
 </div>
 <div id="postamble" class="status">
 <!DOCTYPE html>
