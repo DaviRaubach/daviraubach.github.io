@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rápida introdução ao LilyPond</title>
+<meta name="author" content="Davi Raubach Tuchtenhagen" />
+<meta name="generator" content="Org Mode" />
+<script src='/res/code.js'></script>
+<link rel='stylesheet' href='/res/style.css'>
+<link rel='shortcut icon' type='image/x-icon' href='/img/favicon.ico'>
+<link rel='alternate' type='application/rss+xml' title='RSS Feed for daviraubach.com' href='/blog-feed.xml'>
+<link rel='stylesheet' href='/res/margin-style.css'>
+</head>
+<body>
+<div id="preamble" class="status">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Raubach</title>
+</head>
+<body>
+    <header>
+        <a href="/" class="site-title">Davi Raubach</a>
+        <nav>
+            <a href="/about" class="nav-link">about</a>
+            <a href="/blog" class="nav-link">blog</a>
+            <a href="/music" class="nav-link">music</a>
+            <a href="/research" class="nav-link">research</a>
+        </nav>
+    </header>
+</body>
+</html>
+</div>
+<div id="content" class="content">
+<header>
+<h1 class="title">Rápida introdução ao LilyPond</h1>
+<div class="subheader"><p><i>Published: Maio 09, 2025</i></p></div>
+</header><div class="preview" id="orgbebda9b">
+<p>
+Se você não quer a partitura que vê no software de notação, talvez seja melhor não ver a partitura que quer.
+</p>
+
+</div>
+
+<p>
+De acordo com o site do projeto, “LilyPond é um programa de notação musical dedicado a produzir partituras musicais com a maior qualidade possível”. Diferente da maior parte dos programas que cumprem essa função, o LilyPond processa um arquivo de texto que contém toda informação sobre o conteúdo da partitura e é humanamente legível. Isso faz dele algo semelhante à uma linguagem de programação. Não se escreve música arrastando notas de uma barra de ferramentas gráfica e posicionando-as em uma partitura; em vez disso, se escreve um código. Este código é interpretado pelo LilyPond, que gera a partitura. Assim, o que você vê na tela do computador (um arquivo de texto) não é o que você terá como resultado, mas, sim, o que você <i>quer</i>. Ao mesmo tempo, é possível compilar automaticamente o arquivo a cada modificação e observar as alterações no arquivo gerado. Recomendo o <a href="https://www.frescobaldi.org/">Frescobaldi</a> para edição de partitura em LilyPond. Ele apresenta uma pré-visualização do resultado, bem como muitas outras ferramentas. 
+</p>
+
+<p>
+A página introdutória ao <a href="https://lilypond.org/text-input.html">método de entrada de texto do LilyPond</a> ilustra com imagens os principais elementos do código, o que também apresento abaixo:
+</p>
+
+<ul class="org-ul">
+<li>As notas são representadas por letras (em inglês: <code>c d e f g a b</code>) e números (<code>1</code>: semibreve, <code>2</code>: mínima, <code>4</code>: semínima, <code>8</code>: colcheia, <code>16</code>: semicolcheia, <code>32</code>: fusa, <code>64</code>: semifusa)</li>
+
+<li>Em inglês (outras linguagens são disponibilizadas), alterações são feitas incluindo <code>s</code> para sustenido (<i>sharp</i>) e <code>f</code> para bemol (<i>flat</i>)<span id="fnr.1" class="sidenote-number"><a href="#fn.1"><sup>1</sup></a></span><span class="sidenote" id="sn.1"><span><sup>1</sup></span>
+<code>qs</code> para um quarto de tom acima, <code>qf</code> para um quarto de tom abaixo, <code>tqs</code> para um quarto de tom acima de sustenido e <code>tqf</code> para um quarto de tom abaixo de bemol.
+</span>  <code>cs4</code> é uma semínima de dó sustenido. As oitavas são indicadas com apóstrofes e vírgulas: <code>c'</code> equivale a C4, dó central, <code>c</code> uma oitava abaixo e <code>c,</code>, duas oitavas abaixo. Acordes são escritos entre <code>&lt; &gt;</code>, <code>&lt;c’ e’ g’&gt;4</code> é a tríade maior na oitava 4 com duração de uma semínima.</li>
+
+<li>Ligaduras de duração são feitas com <code>~</code>. Duas semínimas de ré sustenido ligadas são escritas assim: <code>ds’4 ~ ds’4</code>. É possível omitir uma das informações (letra ou número) quando se repetem. <code>ds’4 ~ 4</code> é o mesmo que <code>ds’4 ~ ds’4</code>.</li>
+
+<li>Os parênteses indicam ligadura de expressão: <code>(ds’4 cs’)</code>.</li>
+
+<li>A barra <code>\</code> é usada para comandos especiais: <code>\time 2/4</code>, por exemplo, indica que as notas escritas em seguida serão notadas em uma fórmula de compasso binária em que duas semínimas preenchem um compasso; <code>\p</code> depois de uma nota adiciona a dinâmica piano a ela; <code>\staccato</code> (ou <code>-.</code>) adiciona a articulação staccato à ela.</li>
+
+<li><p>
+A partitura em LilyPond estrutura-se em níveis. O conteúdo de nível mais baixo está em uma voz (<code>\Voice</code>), que está em uma pauta (<code>\Staff</code>), que está ou não em um grupo de pautas  (<code>\StaffGroup</code>) (um naipe, por exemplo), que está em uma partitura (<code>\Score</code>), que está em um livro (<code>\Book</code>):
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lilypond">\Book{
+  \Score{
+    \StaffGroup{
+      \Staff{
+        \Voice{
+          cs’4
+        }
+      }
+    }
+  }
+}
+</pre>
+</div></li>
+</ul>
+
+<p>
+Segue abaixo um exemplo de escrita para violão:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-lilypond">\version "2.25.13"
+\language "english"
+
+\paper { page-breaking = #ly:one-line-auto-height-breaking }
+\new Staff {
+  \time 5/8
+  b'8\1^"L.V." b\2 gs'\1 fs'\2 e'\1
+  ds'\2 e'\1 fs'\2 gs'\1 b\2}
+</pre>
+</div>
+
+<div class="org-center">
+<p>
+FIGURA 1 - IDEIA INICIAL DE AGUAPÉS AO VIOLÃO
+<img src="aguapes-ostinato.png" alt="aguapes-ostinato.png" />
+</p>
+</div>
+<details id="footnotes-details"><summary class="footnote-summary">Footnotes</summary>
+<div class="footnote-table">
+<table style="margin: 0 0 0 0; max-width:100%">
+<tr class="fn-tbl-row">
+<td class="fn-tbl-number"><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></td>
+<td class="fn-tbl-item"><p class="footpara">
+<code>qs</code> para um quarto de tom acima, <code>qf</code> para um quarto de tom abaixo, <code>tqs</code> para um quarto de tom acima de sustenido e <code>tqf</code> para um quarto de tom abaixo de bemol.
+</p></td></tr>
+</table></div></details>
+</div>
+<div id="postamble" class="status">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Min</title>
+    <style>
+        footer {
+            padding: 2rem;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            border-top: 1px solid #eee;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-link {
+            text-decoration: none;
+        }
+        
+        .copyright {
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .footer-links {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-links">
+            <a href="mailto:daviraubach@disroot.org" class="footer-link">contact</a>
+            <a href="https://soundcloud.com/daviraubach" class="footer-link">soundcloud</a>
+            <a href="https://youtube.com/daviraubach" class="footer-link">youtube</a>
+            <a href="https://codeberg.org/daviraubach" class="footer-link">codeberg</a>
+            <a href="https://github.com/daviraubach" class="footer-link">github</a>
+        </div>
+        <div class="copyright">
+          © <span id="year"></span> All rights reserved.
+	  <br>
+	  <p>Para utilização dos materiais destas páginas, entrar em contato através do e-mail</p>
+	  <p>Contact me by e-mail for using the materials in this website</p>
+	  <br>
+	  <p>daviraubach[at]disroot.org</p>
+        </div>
+    </footer>
+
+    <script>
+        // Atualiza o ano automaticamente
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+</div>
+</body>
+</html>

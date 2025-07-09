@@ -11,25 +11,25 @@
      xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Davi Raubach</title>
-  <atom:link href="https://ogbe.net/blog-feed.xml" rel="self" type="application/rss+xml" />
-  <link>https://ogbe.net/</link>
+  <atom:link href="https://daviraubach.com/blog-feed.xml" rel="self" type="application/rss+xml" />
+  <link>https://daviraubach.com/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Mon, 07 Jul 2025 22:18:08 -0300</pubDate>
-  <lastBuildDate>Mon, 07 Jul 2025 22:18:08 -0300</lastBuildDate>
+  <pubDate>Wed, 09 Jul 2025 09:57:18 -0300</pubDate>
+  <lastBuildDate>Wed, 09 Jul 2025 09:57:18 -0300</lastBuildDate>
   <generator>Emacs 29.4 Org-mode 9.6.15</generator>
-  <webMaster>do@ogbe.net (Dennis Ogbe)</webMaster>
+  <webMaster>daviraubach@disroot.org (Davi Raubach)</webMaster>
   <image>
     <url>https://ogbe.net/img/feed-icon-28x28.png</url>
     <title>Davi Raubach</title>
-    <link>https://ogbe.net/</link>
+    <link>https://daviraubach.com/</link>
   </image>
 
   <item>
     <title>Rápida introdução ao LilyPond</title>
-    <link>https://ogbe.net/blog/lilypond</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">518964BD-AABC-4743-A024-3740CA8FF3B2</guid>
+    <link>https://daviraubach.com/blog/fejrnfr</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">EB1AFE0E-C61C-4151-80CE-C9ED2D5E108E</guid>
     <pubDate>Fri, 09 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -39,49 +39,36 @@
   </item>
 
   <item>
-    <title>indexold</title>
-    <link>https://ogbe.net/blog/indexold</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">DDE8748F-CDE3-4F60-862A-EBC04981306A</guid>
-    <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
+    <title>Rápida introdução ao LilyPond</title>
+    <link>https://daviraubach.com/blog/lilypond</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">F86CE070-FBBC-4B28-8F84-DC02E2A41C9C</guid>
+    <pubDate>Fri, 09 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
-    For reasons that I don't yet fully understand, I spend a considerable amount of time during the holidays tweaking and updating this website. The resulting static site generator has now grown in complexity to a point where my previous posts are woefully outdated and rather confusing to read. So why not make an updated "This is how this site is built" post for the year 2025? Alright, saddle up.
+    Se você não quer a partitura que vê no software de notação, talvez seja melhor não ver a partitura que quer.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>Rápida introdução ao LilyPond</title>
+    <link>https://daviraubach.com/blog/skdj</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">6D20AA59-1825-447A-8DA3-4051405633DB</guid>
+    <pubDate>Fri, 09 May 2025 00:00:00 -0300</pubDate>
+
+    <description><![CDATA[<p>
+    Se você não quer a partitura que vê no software de notação, talvez seja melhor não ver a partitura que quer.
     </p>
     ]]></description>
   </item>
 
   <item>
     <title>test</title>
-    <link>https://ogbe.net/blog/tre - cópia</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">29BAF26F-38DB-4F56-A5F0-A7AC007ECAC0</guid>
-    <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
-
-    <description><![CDATA[<p>
-    For reasons that I don't yet fully understand" post for the year 2025? Alright, saddle up.
-    </p>
-    ]]></description>
-  </item>
-
-  <item>
-    <title>test</title>
-    <link>https://ogbe.net/blog/uyt - cópia</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">60C28A95-30FA-4B17-983A-DE17A65BADEF</guid>
-    <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
-
-    <description><![CDATA[<p>
-    For reasons that I don't yet fully understand" post for the year 2025? Alright, saddle up.
-    </p>
-    ]]></description>
-  </item>
-
-  <item>
-    <title>test</title>
-    <link>https://ogbe.net/blog/uyt</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">CD050E93-D853-466E-A435-2C2631CC08E2</guid>
+    <link>https://daviraubach.com/blog/tre - cópia</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">7E71E69C-B9CA-4AAF-8154-41C92107DDEB</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -92,9 +79,9 @@
 
   <item>
     <title>test</title>
-    <link>https://ogbe.net/blog/ytr - cópia</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">A335DEE3-1867-48E7-AD4B-6FC4A4668F58</guid>
+    <link>https://daviraubach.com/blog/uyt - cópia</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">F3E2D750-B2E3-4CD1-9C66-B987DF48CB2E</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -105,9 +92,9 @@
 
   <item>
     <title>test</title>
-    <link>https://ogbe.net/blog/tre</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">05B5BDB3-9C51-4C66-877F-D5C3BB4E54FA</guid>
+    <link>https://daviraubach.com/blog/uyt</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">B3C0B7CC-537C-4704-A184-FFBCC66B1577</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -118,9 +105,9 @@
 
   <item>
     <title>test</title>
-    <link>https://ogbe.net/blog/ytr</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">54C7F7DD-D0C0-4EF9-AFB3-B241E50B9CA3</guid>
+    <link>https://daviraubach.com/blog/ytr - cópia</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">C5A6EAE7-248C-4D44-8160-13CA773424DC</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -131,9 +118,35 @@
 
   <item>
     <title>test</title>
-    <link>https://ogbe.net/blog/teste2</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">E57C6D3D-9A60-4157-8E08-ADA3C4799B6C</guid>
+    <link>https://daviraubach.com/blog/tre</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">B377EE14-376A-4FE0-80BE-3B68CC34440C</guid>
+    <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
+
+    <description><![CDATA[<p>
+    For reasons that I don't yet fully understand" post for the year 2025? Alright, saddle up.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>test</title>
+    <link>https://daviraubach.com/blog/ytr</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">FE0A7E15-687A-40BC-B670-1E6E6C39D02A</guid>
+    <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
+
+    <description><![CDATA[<p>
+    For reasons that I don't yet fully understand" post for the year 2025? Alright, saddle up.
+    </p>
+    ]]></description>
+  </item>
+
+  <item>
+    <title>test</title>
+    <link>https://daviraubach.com/blog/teste2</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">B84E1814-106B-4DAA-8CA4-A987DDE98D6F</guid>
     <pubDate>Wed, 07 May 2025 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
@@ -144,9 +157,9 @@
 
   <item>
     <title>Using Emacs and Org-mode as a static site generator</title>
-    <link>https://ogbe.net/blog/test</link>
-    <author>do@ogbe.net (Dennis Ogbe)</author>
-    <guid isPermaLink="false">6E5DDAEB-DEE6-4E00-804C-0913EA6868A2</guid>
+    <link>https://daviraubach.com/blog/test</link>
+    <author>daviraubach@disroot.org (Davi Raubach)</author>
+    <guid isPermaLink="false">8A899CA2-73FD-4729-92D4-BEECAB9A6D4C</guid>
     <pubDate>Sun, 29 Dec 2024 00:00:00 -0300</pubDate>
 
     <description><![CDATA[<p>
